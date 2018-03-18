@@ -28,9 +28,8 @@
 
 </head>
 
-<div class="preloader center">
-	<br><br><br><br>
-	<img src="/img/loading.gif" alt="">
+<div class="preloader">
+	<div class="pulse"></div>
 </div>
 
 
@@ -46,7 +45,7 @@
 		<nav class="z-depth-1">
 			<div class="nav-wrapper">
 				<a href="#" class="brand-logo left">Reisen</a> 
-				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"></i></a>
+				<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right">
 					<li><a href="#" class="hvr-overline-from-center  hide-on-med-and-down">Послуги</a></li>
 					<li><a href="#" class="hvr-overline-from-center  hide-on-med-and-down">Посилання</a></li>
@@ -54,6 +53,11 @@
 					<li><a href="#" class="service_button btn btn-flat waves-effect waves-green transparent  hide-on-med-and-down">Замовлення</a></li>
 					<li><a href="#" class="language">UA</a></li>
 					<li><a href="#" class="language">GE</a></li>
+				</ul>
+				<ul class="sidenav" id="mobile-demo">
+					<li><a href="#" class="sidenav_elem hvr-overline-from-left">Послгуги</a></li>
+					<li><a href="#" class="sidenav_elem hvr-overline-from-left">Замовлення</a></li>
+					<li><a href="#" class="sidenav_elem hvr-overline-from-left">Контакти</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -78,11 +82,13 @@
 						<div class="col">
 							<a href="#" ><p class="p"> dina_didenko@yahoo.com</p></a>
 							<a href="#"><p class="p"> +38 067 754 18 77</p></a>
-							<a href="#" class="primary_button btn btn-flat waves-effect waves-light transparent">Зробити Замовлення</a>
+							<a href="#" class="primary_button btn btn-flat waves-effect waves-green transparent">Зробити Замовлення</a>
 							<ul class="icons_new">
 								<li><a href="#"><i class="far sa fa-envelope-open" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="sa fab fa-telegram-plane" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fas sa fa-phone" aria-hidden="true"></i></a></li>
+								<li><div class="ham_container">
+								</div></li>
 							</ul>  
 						</div>
 					</div>
