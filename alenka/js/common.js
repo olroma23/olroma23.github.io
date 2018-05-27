@@ -45,6 +45,7 @@ $(function() {
 	$(".scroll").mPageScroll2id({
 		offset: 175
 	});
+	
 });
 
 
