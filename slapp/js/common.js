@@ -36,10 +36,14 @@ $(function() {
 
 
 	$(".menu-btn").click(function(){
-		$(".sidenav").toggleClass("sidenav-close")
+		$(".sidenav").toggleClass("sidenav-close");
+		$('.content').toggleClass('content_active');
 	});
 
 
+	$(window).on('load', function(){
+		$('.preloader').delay(1000).fadeOut('slow');
+	})
 
 
 	// Custom JS
