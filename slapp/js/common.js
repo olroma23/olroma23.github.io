@@ -1,16 +1,33 @@
-function dlOnload() {
-	var jq = document.createElement("script"), mainScript;
-	jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js";
-	document.body.appendChild(jq);
-
-	jq.onload = function() {
-		mainScript = document.createElement("script");
-		mainScript.src = "js/common.js";
-		document.body.appendChild(mainScript);
+$(document).mouseup(function (e) {
+	var container = $(".sidenav");
+	if (container.has(e.target).length === 0){
+		container.removeClass("sidenav-close");
+		$(".menu-btn").click(function(){
+			$(".sidenav").toggleClass("sidenav-close");
+		});
+		$('.menu-btn').on('click', function(e) {
+			e.preventDefault;
+			$(this).toggleClass('menu-btn_active');
+		});
+		$('.menu-btn').removeClass('menu-btn_active');
 	}
-}
+});
 
-window.addEventListener("load", dlOnload, false);
+
+
+// function dlOnload() {
+// 	var jq = document.createElement("script"), mainScript;
+// 	jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js";
+// 	document.body.appendChild(jq);
+
+// 	jq.onload = function() {
+// 		mainScript = document.createElement("script");
+// 		mainScript.src = "js/common.js";
+// 		document.body.appendChild(mainScript);
+// 	}
+// }
+
+// window.addEventListener("load", dlOnload, false);
 
 
 $(function() {
@@ -22,6 +39,22 @@ $(function() {
 
 
 	
+
+
+	$(".partners").owlCarousel({
+		loop: true,
+		smartSpeed: 700,
+		dots: false,
+		nav: true,
+		autoplay: true,
+    autoplayTimeout: 4000,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1
+			}
+		}
+	});
 
 
 
@@ -65,19 +98,4 @@ $(function() {
 
 	// Custom JS
 
-});
-
-$(document).mouseup(function (e) {
-	var container = $(".sidenav");
-	if (container.has(e.target).length === 0){
-		container.removeClass("sidenav-close");
-		$(".menu-btn").click(function(){
-			$(".sidenav").toggleClass("sidenav-close");
-		});
-		$('.menu-btn').on('click', function(e) {
-			e.preventDefault;
-			$(this).toggleClass('menu-btn_active');
-		});
-		$('.menu-btn').removeClass('menu-btn_active');
-	}
 });
