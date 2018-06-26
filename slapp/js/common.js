@@ -1,3 +1,18 @@
+function dlOnload() {
+	var jq = document.createElement("script"), mainScript;
+	jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js";
+	document.body.appendChild(jq);
+
+	jq.onload = function() {
+		mainScript = document.createElement("script");
+		mainScript.src = "js/common.js";
+		document.body.appendChild(mainScript);
+	}
+}
+
+window.addEventListener("load", dlOnload, false);
+
+
 $(function() {
 
 
