@@ -67,7 +67,7 @@ $(function() {
 		dots: false,
 		nav: true,
 		autoplay: true,
-		autoplayTimeout: 4000,
+		autoplayTimeout: 5000,
 		responsiveClass: true,
 		responsive: {
 			0: {
