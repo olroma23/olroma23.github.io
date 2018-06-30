@@ -64,7 +64,7 @@ $(function() {
 	});
 
 
-	
+
 
 
 	$(".partners").owlCarousel({
@@ -119,8 +119,10 @@ $(function() {
 		$(".form-container").removeClass("active-icon2");
 	});
 
-	// Custom JS
-
+	$(".timer").appear(function() {
+		$(this).countTo();
+	});
+	
 
 	$(window).scroll(function(){
 		if ($(this).scrollTop()*4 > $(this).height()){
@@ -132,16 +134,6 @@ $(function() {
 	$("a").mPageScroll2id({
 		offset: 75
 	});
-
-
-
-
-// $(window).scroll(function(){
-// 	if ($(this).scrollTop() > $(this).height()){
-// 		$(".on_top").fadeIn();
-// 	}
-// 	else $(".on_top").fadeOut();
-// })
 
 
 
