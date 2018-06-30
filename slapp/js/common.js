@@ -10,6 +10,12 @@ $(document).mouseup(function (e) {
 			$(this).toggleClass('menu-btn_active');
 		});
 		$('.menu-btn').removeClass('menu-btn_active');
+
+		$(".dropdown-item").click(function(){
+			$(".sidenav").toggleClass("sidenav-close");
+			$('.menu-btn').removeClass('menu-btn_active');
+			$(".dropdown-toggle").toggleClass("rotate-first-class");
+		});
 	}
 });
 
@@ -114,5 +120,24 @@ $(function() {
 	});
 
 	// Custom JS
+
+
+
+	$("a").mPageScroll2id({
+		offset: 75
+	});
+
+
+
+
+// $(window).scroll(function(){
+// 	if ($(this).scrollTop() > $(this).height()){
+// 		$(".on_top").fadeIn();
+// 	}
+// 	else $(".on_top").fadeOut();
+// })
+
+
+
 
 });
