@@ -19,7 +19,9 @@ $(document).mouseup(function (e) {
 	}
 });
 
-
+$(".dropdown-item").click(function(){
+	$(".dropdown-toggle").toggleClass("rotate-first-class");
+});
 
 function isVisible(elem) {
 
@@ -82,7 +84,11 @@ $(function() {
 		}
 	});
 
+	new WOW().init();
 
+	$(window).on('load', function(){
+		$('.preloader').delay(50).fadeOut('slow');
+	})
 
 	var vids = $("video"); 
 	$.each(vids, function(){
@@ -122,7 +128,7 @@ $(function() {
 	$(".timer").appear(function() {
 		$(this).countTo();
 	});
-	
+
 
 	$(window).scroll(function(){
 		if ($(this).scrollTop()*4 > $(this).height()){
