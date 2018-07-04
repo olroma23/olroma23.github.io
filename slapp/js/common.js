@@ -14,7 +14,7 @@ $(document).mouseup(function (e) {
 		$(".dropdown-item").click(function(){
 			$(".sidenav").toggleClass("sidenav-close");
 			$('.menu-btn').removeClass('menu-btn_active');
-			$(".dropdown-toggle").toggleClass("rotate-first-class");
+			$(".dropdown-toggle").removeClass("rotate-first-class");
 		});
 	}
 });
@@ -22,6 +22,7 @@ $(document).mouseup(function (e) {
 $(".dropdown-item").click(function(){
 	$(".dropdown-toggle").toggleClass("rotate-first-class");
 });
+
 
 function isVisible(elem) {
 
@@ -59,6 +60,14 @@ showVisible();
 
 
 $(function() {
+
+
+
+
+
+
+
+
 
 
 	$(".first-element").click(function(){
@@ -140,6 +149,7 @@ $(function() {
 	$("a").mPageScroll2id({
 		offset: 75
 	});
+
 
 
 
