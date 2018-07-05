@@ -94,7 +94,7 @@
 
 
 
-		<nav class="navbar fixed-top navbar-expand-md navbar-dark wow fadeInDown" data-wow-delay="1.7s">
+		<nav class="navbar fixed-top navbar-expand-md navbar-dark wow fadeInDown" data-wow-delay="1.7s" data-wow-offset="-800">
 			<div class="container-fluid">
 				<a class="navbar-brand"><img style="height: 30px; width: 156px;" src="img/logo2.2.png" alt="slapp"></a>
 				<div class="ham-container">
@@ -138,7 +138,7 @@
 							</a>
 						</li>
 						<li class="nav-item search-link">
-							<a href="#" class="nav-link">
+							<a href="#" class="nav-link" data-toggle="modal" data-target="#myModal">
 								<i class="fal fa-mobile"></i>
 							</a>
 						</li>
@@ -146,6 +146,22 @@
 				</div>
 			</div>
 		</nav>
+
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body">
+						<p></p>
+					</div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 

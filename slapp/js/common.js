@@ -59,11 +59,12 @@ window.onscroll = showVisible;
 showVisible();
 
 
+
 $(function() {
 
-
-
-
+	// $(document).ready(function(){
+	// 	$(this).scrollTop(0);
+	// });
 
 
 
@@ -92,6 +93,8 @@ $(function() {
 			}
 		}
 	});
+
+
 
 	new WOW().init();
 
