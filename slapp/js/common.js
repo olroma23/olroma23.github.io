@@ -62,14 +62,6 @@ showVisible();
 
 $(function() {
 
-	// $(document).ready(function(){
-	// 	$(this).scrollTop(0);
-	// });
-
-
-
-
-
 
 	$(".first-element").click(function(){
 		$(".dropdown-toggle").toggleClass("rotate-first-class");
@@ -106,6 +98,7 @@ $(function() {
 	$.each(vids, function(){
 		this.controls = false; 
 	}); 
+
 
 
 	$(window).scroll(function(){
@@ -152,9 +145,5 @@ $(function() {
 	$("a").mPageScroll2id({
 		offset: 75
 	});
-
-
-
-
 
 });
