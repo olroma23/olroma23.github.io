@@ -132,49 +132,52 @@
 				<li><a href=""><i class="fab fa-instagram"></i></a></li>
 				<li><a href=""><i class="fas fa-phone"></i></a></li>
 			</ul>
+			<div class="down-section">
+				<a href="#1"><i class="far fa-chevron-down"></i></a>
+			</div>
 			<video loop preload autoplay controls muted  >
 				<source src="img/bgvd1.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
 			</video>
 		</section>
 	</div>
 
-
+	
 
 	<div class="container">
 		<div class="row">
 			<div class="col center">
-				<h5 class="p-head" style="margin-bottom: 30px; margin-top: 90px">
+				<h5 id="1" class="p-head" style="margin-bottom: 30px; margin-top: 90px">
 					Какой сайт Вам нужен?
 				</h5>
 			</div>
 		</div>
 	</div>
-
+	<div id="dot" style="position: absolute; top: 951px"></div>
 
 	<div class="container-fluid" style="padding: 0!important">
 		<br>
 
-		<ul class="nav nav-pills justify-content-center" role="tablist">
+		<ul class="nav nav-pills justify-content-center">
 			<li class="nav-item ">
-				<a class="nav-link active" data-toggle="pill" data-target="#home" href="#">LANDING PAGE<i class="fal fa-angle-right"></i></a>
+				<a class="nav-link active" href="#dot" data-target="#landing" data-toggle="pill">LANDING PAGE<i class="fal fa-angle-right"></i></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="pill" data-target="#menu1" href="#">МНОГОСТРАНИЧНЫЙ САЙТ<i class="fal fa-angle-right"></i></a>
+				<a class="nav-link" href="#dot" data-target="#site" data-toggle="tab">МНОГОСТРАНИЧНЫЙ САЙТ<i class="fal fa-angle-right"></i></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" data-toggle="pill" data-target="#menu2" href="#">ИНТЕРНЕТ МАГАЗИН<i class="fal fa-angle-right"></i></a>
+				<a class="nav-link" href="#dot" data-target="#shop" data-toggle="tab">ИНТЕРНЕТ МАГАЗИН<i class="fal fa-angle-right"></i></a>
 			</li>
 		</ul>
 
 		<!-- Tab panes -->
 		<div class="tab-content">
-			<div id="home" class="tab-pane active"><br>
+			<div id="landing" class="tab-pane active"><br>
 				<section class="land-page" style="background-color: #fff;">
 					<br>
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-lg-8">
-								<h1 class="p-head">
+								<h1 class="p-head" id="land">
 									LANDING PAGE
 								</h1>
 							</div>
@@ -297,6 +300,10 @@
 							<div id="demo" class="collapse">
 								<p>Это посадочная страница под конкретный товар или услугу, показывающая основные преимущества: обзор, отзывы, акции и убеждает человека сделать онлайн заказ или позвонить конкретно сейчас. Такие страницы рассчитаны на горячие продажи, пока человек под впечатлением. Эффективный инструмент для сбора лидов.</p>
 							</div>
+							<br><br>
+							<a href="" data-toggle="collapse" data-target="#demo">Чем Landing Page отличается от обычного сайта?</a>
+							<br><br>
+							<a href="" data-toggle="collapse" data-target="#demo">Как долго создаётся Landing Page?</a>
 						</div>
 					</div>
 					<br>
@@ -310,14 +317,14 @@
 					</div>
 				</div>
 			</div>
-			<div id="menu1" class="tab-pane fade"><br>
+			<div id="site" class="tab-pane fade"><br>
 				
 				<section class="land-page" style="background-color: #fff; background-size: cover">
 					<br>
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col">
-								<h1 class="p-head">
+								<h1 class="p-head" id="land1">
 									МНОГОСТРАНИЧНЫЙ САЙТ
 								</h1>
 							</div>
@@ -370,19 +377,18 @@
 					<br>
 				</section>
 			</div>
-			<div id="menu2" class="tab-pane fade"><br>
-				
+			<div id="shop" class="tab-pane fade"><br>
 				<section class="land-page" style="background-color: #fff; background-size: cover">
 					<br>
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col">
-								<h1 class="p-head">
+								<h1 class="p-head" id="land2">
 									ИНТЕРНЕТ МАГАЗИН
 								</h1>
 							</div>
 						</div>
-						<div class="row center">
+						<div class="row center" >
 							<div class="col-lg-3  shop-pro shop-all landing-all">
 								<h4 style="font-weight: 300">Pro*</h4>
 								<p>₴ <span  style="font-size: 36px;">18000</span></p>
