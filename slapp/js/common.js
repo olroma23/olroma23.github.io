@@ -130,6 +130,23 @@ $(function() {
 		$(".form-container").removeClass("active-icon2");
 	});
 
+	$("#select-site").focus(function(){
+		$(".form-container").addClass("active-icon3");
+	});
+
+	$("#select-site").focusout(function(){
+		$(".form-container").removeClass("active-icon3");
+	});
+
+	$("#select-pack").focus(function(){
+		$(".form-container").addClass("active-icon4");
+	});
+
+	$("#select-pack").focusout(function(){
+		$(".form-container").removeClass("active-icon4");
+	});
+
+
 	$(".timer").appear(function() {
 		$(this).countTo();
 	});
