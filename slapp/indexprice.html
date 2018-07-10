@@ -70,7 +70,7 @@
 			</ul>
 			<p>&nbsp <i style="font-size: 13px; color: #e74c3c" class="fas fa-location-arrow"></i>
 				&nbsp
-				Ukraine, Kyiv, Khreshatyk 12 
+				Ukraine, Kyiv
 				<br>
 				&nbsp &nbsp &nbsp &nbsp &nbsp 0660944908
 			</p>
@@ -107,7 +107,7 @@
 							</a>
 						</li>
 						<li class="nav-item search-link">
-							<a href="#" class="nav-link">
+							<a href="#" class="nav-link" data-toggle="modal" data-target="#myModal">
 								<i class="fal fa-mobile"></i>
 							</a>
 						</li>
@@ -116,6 +116,52 @@
 			</div>
 		</nav>
 
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><i class="fal fa-times"></i></button>
+					</div>
+					<div class="modal-body">
+						<br>
+						<section class="contact-section" style="">
+							<div class="container">			
+								<div class="row">
+									<div class="col-lg-5 offset-lg-2 col-md-12 col-sm-12">
+										<div class="form-container" style="margin-bottom: 40px">
+											<h4 class="center">Мы свяжемся с Вами в течении 30 минут</h4>
+											<form class="callback">
+												<!-- Hidden Required Fields -->
+												<input type="hidden" name="project_name" value="reisen.kiev.ua">
+												<input type="hidden" name="admin_email" value="roliynyk68@gmail.com">
+												<input type="hidden" name="form_subject" value="Заявка з сайту Reisen">
+												<input type="hidden" name="Сторінка" value="">
+												<!-- END Hidden Required Fields -->
+												<label>Ваше имя</label>
+												<label class="name-form">Ваш номер</label>
+												<br>
+												<span><i class="fal fa-user-alt"></i></span>
+												<input type="text"  id="name-form" name="Name" placeholder="Петро Сагайдачний" required>
+												<span><i class="fal fa-mobile"></i></span>
+												<input type="text" id="number-form" name="number" placeholder="0660944908" required>
+												<label>Ваш E-Mail</label>
+												<br>
+												<span><i class="fal fa-envelope-open"></i></span>
+												<input type="text" id="mail-form" name="Name" placeholder="sagaida4niy@gmail.com" required>
+												<label>Ваше сообщение</label>
+												<br>
+												<textarea placeholder="" rows="3"  type="text" name="Extra"></textarea>
+												<button class="btn button-form">Отправить</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<section class="bgvideo1">
@@ -123,9 +169,15 @@
 				<img src="img/logo.png" height="100" width="145" alt="" style="opacity: 0.5" class="wow fadeIn" data-wow-delay="2s">
 				<br>
 				<br>
-				<a href="" class="btn prim-btn wow fadeInLeft" data-wow-delay="2.5s">Заказaть <i class="fal fa-handshake-alt"></i></a>
+				<a href="#5" class="btn prim-btn wow fadeInLeft" data-wow-delay="2.5s">Заказaть <i class="fal fa-handshake-alt"></i></a>
 				<br style="display: none">
-				<a href="#5" class="btn second-btn wow fadeInRight" data-wow-delay="3s">Связаться <i class="fal fa-phone"></i></a>
+				<a href="#" class="btn second-btn wow fadeInRight" data-wow-delay="3s" data-toggle="modal" data-target="#myModal">Связаться <i class="fal fa-phone"></i></a>
+				<br>
+				<ul class="center-element wow fadeIn" data-wow-delay="3.5s" data-wow-offset="-200">
+					<li><a href=""><i class="fab fa-telegram-plane"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+					<li><a href=""><i class="fas fa-phone"></i></a></li>
+				</ul>
 			</div>
 			<ul class="right-element wow fadeInRight" data-wow-delay="1.2s" >
 				<li><a href=""><i class="fab fa-telegram-plane"></i></a></li>
@@ -135,13 +187,22 @@
 			<div class="down-section">
 				<a href="#1"><i class="far fa-chevron-down"></i></a>
 			</div>
+			<div class="section-left wow fadeInLeft" data-wow-delay="1.2s">
+				<p>&nbsp <i style="font-size: 13px; color: #e74c3c" class="fas fa-location-arrow"></i>
+
+					&nbsp
+					Ukraine, Kyiv
+					<br>
+					&nbsp &nbsp &nbsp &nbsp &nbsp 0660944908
+				</p>
+			</div>
 			<video loop preload autoplay controls muted  >
 				<source src="img/bgvd1.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
 			</video>
 		</section>
 	</div>
 
-	
+
 
 	<div class="container">
 		<div class="row">
@@ -193,7 +254,7 @@
 									<li>Настройка Сервера<i class="fal fa-check"></i></li>
 									<li>HTTPS, SSL<i class="fal fa-check"></i></li>
 									<li>Google Analytics <br> AMO CRM<i class="fal fa-check"></i></li>
-									<li>Форма Захвата <br> Онлайн Консультант<i class="fal fa-check"></i></li>
+									<li>Форма Обратной Связи <br> Онлайн Консультант<i class="fal fa-check"></i></li>
 									<li class="li-pro">SEO - Оптимизация<i class="fal fa-times"></i></li>
 									<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
 									<li class="li-pro">Административная Панель<i class="fal fa-times"></i></li>
@@ -211,7 +272,7 @@
 									<li>Настройка Сервера<i class="fal fa-check"></i></li>
 									<li>HTTPS, SSL<i class="fal fa-check"></i></li>
 									<li>Google Analytics <br> AMO CRM<i class="fal fa-check"></i></li>
-									<li>Форма Захвата <br> Онлайн Консультант<i class="fal fa-check"></i></li>
+									<li>Форма Обратной Связи <br> Онлайн Консультант<i class="fal fa-check"></i></li>
 									<li >SEO - Оптимизация<i class="fal fa-check"></i></li>
 									<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
 									<li class="li-pro">Административная Панель<i class="fal fa-times"></i></li>
@@ -229,7 +290,7 @@
 									<li>Настройка Сервера<i class="fal fa-check"></i></li>
 									<li>HTTPS, SSL<i class="fal fa-check"></i></li>
 									<li>Google Analytics <br> AMO CRM<i class="fal fa-check"></i></li>
-									<li>Форма Захвата <br> Онлайн Консультант<i class="fal fa-check"></i></li>
+									<li>Форма Обратной Связи <br> Онлайн Консультант<i class="fal fa-check"></i></li>
 									<li>SEO - Оптимизация<i class="fal fa-check"></i></li>
 									<li>Marketing (Google, SMM)<i class="fal fa-check"></i></li>
 									<li>Административная Панель<i class="fal fa-check"></i></li>
@@ -266,7 +327,7 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 info-1">
 							<i class="fal fa-cog"></i>
 							<h4>Функциональность</h4>
-							<p class="info-text">Сайт должен иметь такие функции для удобного и интуитивного пользования как: модальные окна, понятная навигация, ссылки на удобные пути связи, и так далее. Все эти функции присутствуют на сайтах, сделанных нами в независимости от выбранного пакета.</p>
+							<p class="info-text">Сайт должен иметь такие функции для удобного и интуитивного пользования как: модальные окна, ротатор слайдов, мультиязычность, понятная навигация, ссылки на удобные пути связи, и множество других. Все эти функции присутствуют на сайтах, сделанных нами в независимости от выбранного пакета.</p>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 info-1">
 							<i class="fal fa-certificate"></i>	
@@ -275,7 +336,7 @@
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 info-1">
 							<i class="fal fa-phone-volume"></i>
-							<h4>Google Analytics, Call-трекер, онлайн-чат, форма захвата</h4>
+							<h4>Google Analytics, Call-трекер, онлайн-чат, форма обратной связи</h4>
 							<p class="info-text">Стандартный набор интсрументов для развития вашего бизнеса в интернете, который даёт возможность клиентам быстро и бесплатно связаться с Вами, а так же отслеживать и анализировать входящий трафик. </p>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 info-1">
@@ -324,7 +385,7 @@
 				</div>
 			</div>
 			<div id="site" class="tab-pane fade"><br>
-				
+
 				<section class="land-page" style="background-color: #fff; background-size: cover">
 					<br>
 					<div class="container-fluid">
@@ -452,7 +513,7 @@
 
 
 
-	<section class="contact-section" style="background-color: #aaa">
+	<section class="contact-section" style="background-image: url(img/header-pr.jpg);">
 		<div class="container">			
 			<div class="row">
 				<div class="col-lg-4 col-md-12">
@@ -557,7 +618,7 @@
 						<p>&nbsp <i style="font-size: 13px; color: #e74c3c" class="fas fa-location-arrow"></i>
 
 							&nbsp
-							Ukraine, Kyiv, Lukianivska 12 
+							Ukraine, Kyiv
 							<br>
 							&nbsp &nbsp &nbsp 0660944908
 						</p>
