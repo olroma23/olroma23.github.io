@@ -147,9 +147,141 @@ $(function() {
 	});
 
 
+	$("#name-form1").focus(function(){
+		$(".form-container").addClass("active-icon");
+	});
+
+	$("#name-form1").focusout(function(){
+		$(".form-container").removeClass("active-icon");
+	});
+
+	$("#number-form1").focus(function(){
+		$(".form-container").addClass("active-icon1");
+	});
+
+	$("#number-form1").focusout(function(){
+		$(".form-container").removeClass("active-icon1");
+	});
+
+	$("#mail-form1").focus(function(){
+		$(".form-container").addClass("active-icon2");
+	});
+
+	$("#mail-form1").focusout(function(){
+		$(".form-container").removeClass("active-icon2");
+	});
+
+
+
+	$("#name-form2").focus(function(){
+		$(".form-container").addClass("active-icon");
+	});
+
+	$("#name-form2").focusout(function(){
+		$(".form-container").removeClass("active-icon");
+	});
+
+	$("#number-form2").focus(function(){
+		$(".form-container").addClass("active-icon1");
+	});
+
+	$("#number-form2").focusout(function(){
+		$(".form-container").removeClass("active-icon1");
+	});
+
+	$("#mail-form2").focus(function(){
+		$(".form-container").addClass("active-icon2");
+	});
+
+	$("#mail-form2").focusout(function(){
+		$(".form-container").removeClass("active-icon2");
+	});
+	$("#select-pack2").focus(function(){
+		$(".form-container").addClass("active-icon4");
+	});
+
+	$("#select-pack2").focusout(function(){
+		$(".form-container").removeClass("active-icon4");
+	});
+
+
+
+	$("#name-form3").focus(function(){
+		$(".form-container").addClass("active-icon");
+	});
+
+	$("#name-form3").focusout(function(){
+		$(".form-container").removeClass("active-icon");
+	});
+
+	$("#number-form3").focus(function(){
+		$(".form-container").addClass("active-icon1");
+	});
+
+	$("#number-form3").focusout(function(){
+		$(".form-container").removeClass("active-icon1");
+	});
+
+	$("#mail-form3").focus(function(){
+		$(".form-container").addClass("active-icon2");
+	});
+
+	$("#mail-form3").focusout(function(){
+		$(".form-container").removeClass("active-icon2");
+	});
+	$("#select-pack3").focus(function(){
+		$(".form-container").addClass("active-icon4");
+	});
+
+	$("#select-pack3").focusout(function(){
+		$(".form-container").removeClass("active-icon4");
+	});
+	
+
+
+	$("#name-form4").focus(function(){
+		$(".form-container").addClass("active-icon");
+	});
+
+	$("#name-form4").focusout(function(){
+		$(".form-container").removeClass("active-icon");
+	});
+
+	$("#number-form4").focus(function(){
+		$(".form-container").addClass("active-icon1");
+	});
+
+	$("#number-form4").focusout(function(){
+		$(".form-container").removeClass("active-icon1");
+	});
+
+	$("#mail-form4").focus(function(){
+		$(".form-container").addClass("active-icon2");
+	});
+
+	$("#mail-form4").focusout(function(){
+		$(".form-container").removeClass("active-icon2");
+	});
+	$("#select-pack4").focus(function(){
+		$(".form-container").addClass("active-icon4");
+	});
+
+	$("#select-pack4").focusout(function(){
+		$(".form-container").removeClass("active-icon4");
+	});
+	
+
+
+
+
 	$(".timer").appear(function() {
 		$(this).countTo();
 	});
+
+
+
+
+
 
 
 	$(window).scroll(function(){
