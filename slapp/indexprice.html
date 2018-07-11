@@ -78,7 +78,7 @@
 
 		<nav class="navbar fixed-top navbar-expand-md navbar-dark wow fadeInDown" data-wow-delay="1.7s" data-wow-offset="100">
 			<div class="container-fluid">
-				<a class="navbar-brand"><img style="height: 30px; width: 128px;" src="img/logo2.2.png" alt="slapp"></a>
+				<a href="index.html" class="navbar-brand"><img style="height: 30px; width: 128px;" src="img/logo2.2.png" alt="slapp"></a>
 				<div class="ham-container">
 					<a class="menu-btn navbar-toggler">
 						<span></span>
@@ -512,451 +512,553 @@
 					</div>
 				</div>
 
-				<div class="container s-questions">
-					<div class="row">
-						<div class="col">
-							<h1 class="s-head1">
-								Часто задаваемые вопросы
-							</h1>
+
+				<div id="accordion">
+					<h1 class="s-head1"><span class="accent">?</span> Часто задаваемые вопросы</h1>
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<a class="btn btn-link" data-toggle="collapse" data-target="#collapse1-land" aria-expanded="true" aria-controls="collapseOne">
+									Что такое Landing Page?<i class="far fa-chevron-down"></i>
+								</a>
+							</h5>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12" style="margin-bottom: 80px">
-							<a href="" data-toggle="collapse" data-target="#demo">Что такое Landing Page?</a>
-							<div id="demo" class="collapse">
+						<div id="collapse1-land" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
 								<p>Это посадочная страница под конкретный товар или услугу, показывающая основные преимущества: обзор, отзывы, акции и убеждает человека сделать онлайн заказ или позвонить конкретно сейчас. Такие страницы рассчитаны на горячие продажи, пока человек под впечатлением. Эффективный инструмент для сбора лидов.</p>
 							</div>
-							<br><br>
-							<a href="" data-toggle="collapse" data-target="#demo1">Чем Landing Page отличается от обычного сайта?</a>
-							<div id="demo1" class="collapse">
-								<p>
-									Главное отличие — лендинг всегда посвящен какой-то определенной тематике: товар, услуга, акция, мероприятие ,в общем все, к чему вы бы хотели привлечь внимание потенциальных клиентов. А обычный сайт имеет более глубокую и объемную структуру, где рассказывается о компании, обо всех услугах, клиентах и прочее.
-
-									<br>		Следующее отличие — это дизайн, который строится вокруг одной задачи — фокусировка внимания на единственной странице. Лэндинг, как правило, делается в стиле минимализма, их не надо перегружать дизайном, графикой и информацией. Текст сайта должен содержать краткую, четкую, наиболее подробную информацию о рекламируемом товаре и иметь вхождение определенных ключевых слов, которые затачиваются под рекламу, при их правильном построении контекстная реклама приведет пользователя на сайт, который отвечает на его вопрос в поисковике.</p>
-								</div>
-								<br><br>
-								<a href="" data-toggle="collapse" data-target="#demo2">Как долго создаётся Landing Page?</a>
-								<div id="demo2" class="collapse">
-									<p>От недели до 3 недель. Всё зависит от объёма работы: сложности дизайна и вёрстки, количества предоставленной информации и других факторов.</p>
-								</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2-land" aria-expanded="false" aria-controls="collapseTwo">
+									Чем Landing отличается от обычного сайта?<i class="far fa-chevron-down"></i>
+								</a>
+							</h5>
+						</div>
+						<div id="collapse2-land" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<p>Главное отличие — лендинг всегда посвящен какой-то определенной тематике: товар, услуга, акция, мероприятие ,в общем все, к чему вы бы хотели привлечь внимание потенциальных клиентов. А обычный сайт имеет более глубокую и объемную структуру, где рассказывается о компании, обо всех услугах, клиентах и прочее.<br>		Следующее отличие — это дизайн, который строится вокруг одной задачи — фокусировка внимания на единственной странице. Лэндинг, как правило, делается в стиле минимализма, их не надо перегружать дизайном, графикой и информацией. Текст сайта должен содержать краткую, четкую, наиболее подробную информацию о рекламируемом товаре и иметь вхождение определенных ключевых слов, которые затачиваются под рекламу, при их правильном построении контекстная реклама приведет пользователя на сайт, который отвечает на его вопрос в поисковике.</p>
 							</div>
 						</div>
-						<br>
-						<div class="row">
-							<div class="col-md-12">
-								<a href="" data-toggle="collapse" data-target="#demo1"></a>
-								<div id="demo1" class="collapse">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, aliquam.</p>
-								</div>
+					</div>
+					<div class="card" style="border-bottom: none">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3-land" aria-expanded="false" aria-controls="collapseTwo">
+									Как долго создаётся Landing Page?<i class="far fa-chevron-down"></i>
+								</a>
+							</h5>
+						</div>
+						<div id="collapse3-land" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<p>От недели до 3 недель. Всё зависит от объёма работы: сложности дизайна и вёрстки, количества предоставленной информации и других факторов.</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div id="site" class="tab-pane fade"><br>
 
-					<section class="land-page" style="background-color: #fff; background-size: cover">
-						<br>
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col">
-									<h1 class="p-head" id="land1">
-										КОРПОРАТИВНЫЙ САЙТ
-									</h1>
-								</div>
+
+			</div>
+			<div id="site" class="tab-pane fade"><br>
+				<section class="land-page s-corp">
+					<br>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-6">
+								<h1 class="p-head" id="land1">
+									КОРПОРАТИВНЫЙ САЙТ
+								</h1>
 							</div>
-							<div class="row center">
-								<div class="col-lg-3 offset-lg-1 site-all site-starter landing-all">
-									<h4 style="font-weight: 300;">Starter</h4>
-									<p>₴ <span  style="font-size: 36px;">9000</span></p>
-									<ul>
-										<li>Готовый Веб-Сайт<i class="fal fa-check"></i></li>
-										<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
-										<li>Настройка Сервера<i class="fal fa-check"></i></li>
-										<li>HTTPS, SSL<i class="fal fa-check"></i></li>
-										<li class="li-pro">SEO - Оптимизация Каждой Страницы<i class="fal fa-times"></i></li>
-										<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
-									</ul>
-									<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal2">Заказать <i class="far fa-handshake-alt"></i></a>
-									<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
-								</div>
-								<div class="col-lg-3 site-all  site-basic landing-all">
-									<h4 style="font-weight: 700">Basic*</h4>
-									<p>₴ <span  style="font-size: 36px;">12000</span></p>
-									<ul>
-										<li>Готовый  Веб-Сайт<i class="fal fa-check"></i></li>
-										<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
-										<li>Настройка Сервера<i class="fal fa-check"></i></li>
-										<li>HTTPS, SSL<i class="fal fa-check"></i></li>
-										<li >SEO - Оптимизация Каждой Страницы<i class="fal fa-check"></i></li>
-										<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
-									</ul>
-									<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal2">Заказать <i class="far fa-handshake-alt"></i></a>
-									<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
-								</div>
-								<div class="col-lg-3  site-all site-pro landing-all">
-									<h4 style="font-weight: 300">Pro</h4>
-									<p>₴ <span  style="font-size: 36px;">15000</span></p>
-									<ul>
-										<li>Готовый Веб-Сайт<i class="fal fa-check"></i></li>
-										<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
-										<li>Настройка Сервера<i class="fal fa-check"></i></li>
-										<li>HTTPS, SSL<i class="fal fa-check"></i></li>
-										<li>SEO - Оптимизация Каждой Страницы<i class="fal fa-check"></i></li>
-										<li>Marketing (Google, SMM)<i class="fal fa-check"></i></li>
-									</ul>
-									<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal2">Заказать<i class="far fa-handshake-alt"></i></a>
-									<a href="#" class="btn second-btn" data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
-								</div>
+							<br>
+						</div>
+						<div class="row center">
+							<div class="col-lg-3 offset-lg-1 site-all site-starter landing-all">
+								<h4 style="font-weight: 300;">Starter</h4>
+								<p>₴ <span  style="font-size: 36px;">9000</span></p>
+								<ul>
+									<li>Готовый Веб-Сайт<i class="fal fa-check"></i></li>
+									<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
+									<li>Настройка Сервера<i class="fal fa-check"></i></li>
+									<li>HTTPS, SSL<i class="fal fa-check"></i></li>
+									<li class="li-pro">SEO - Оптимизация Каждой Страницы<i class="fal fa-times"></i></li>
+									<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
+								</ul>
+								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal2">Заказать <i class="far fa-handshake-alt"></i></a>
+								<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
+							</div>
+							<div class="col-lg-3 site-all  site-basic landing-all">
+								<h4 style="font-weight: 700">Basic*</h4>
+								<p>₴ <span  style="font-size: 36px;">12000</span></p>
+								<ul>
+									<li>Готовый  Веб-Сайт<i class="fal fa-check"></i></li>
+									<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
+									<li>Настройка Сервера<i class="fal fa-check"></i></li>
+									<li>HTTPS, SSL<i class="fal fa-check"></i></li>
+									<li >SEO - Оптимизация Каждой Страницы<i class="fal fa-check"></i></li>
+									<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
+								</ul>
+								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal2">Заказать <i class="far fa-handshake-alt"></i></a>
+								<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
+							</div>
+							<div class="col-lg-3  site-all site-pro landing-all">
+								<h4 style="font-weight: 300">Pro</h4>
+								<p>₴ <span  style="font-size: 36px;">15000</span></p>
+								<ul>
+									<li>Готовый Веб-Сайт<i class="fal fa-check"></i></li>
+									<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
+									<li>Настройка Сервера<i class="fal fa-check"></i></li>
+									<li>HTTPS, SSL<i class="fal fa-check"></i></li>
+									<li>SEO - Оптимизация Каждой Страницы<i class="fal fa-check"></i></li>
+									<li>Marketing (Google, SMM)<i class="fal fa-check"></i></li>
+								</ul>
+								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal2">Заказать<i class="far fa-handshake-alt"></i></a>
+								<a href="#" class="btn second-btn" data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
 							</div>
 						</div>
-						<br>
-					</section>
+					</div>
+					<br>
+				</section>
+				<div id="accordion">
+					<h1 class="s-head1"><span class="accent">?</span> Часто задаваемые вопросы</h1>
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Что такое Корпоративный Веб-Сайт? <i class="far fa-chevron-down"></i>
+								</a>
+							</h5>
+						</div>
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								<p>Корпоративный сайт – это сайт компании, ее официальное виртуальное представительство в интернете. Корпоративный сайт содержит полный объем информации о самой компании, о сфере ее деятельности, предлагаемой продукции и услугах. Часто на корпоративном сайте размещают каталог производимой продукции и дополнительные сервисы – форум, опросы, рассылки и тому подобное. <br>
+								Корпоративный сайт позволяет выдавать онлайн расчёты стоимости, производить продажу продукции, проводить маркетинговые исследования и рекламные акции, рассылать посетителям новости, собирать отзывы клиентов, устраивать голосования и многое другое.</p>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<a class="btn btn-link" data-toggle="collapse" data-target="#collapseOn" aria-expanded="true" aria-controls="collapseOne">
+									Нужен ли нашей компании сайт? <i class="far fa-chevron-down"></i>
+								</a>
+							</h5>
+						</div>
+						<div id="collapseOn" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								<p>
+									Да! Такой сайт решит многие бизнес-задачи: построение и поддержка имиджа, привлечение новых покупателей и работников. За счёт удобного и современного интерфейса, основанного на Ваших пожеланиях мы сконвертируем посетителей в Ваших клиентов. Закажите функциональный, технологичный и современный корпоративный веб-сайт у нас.</p>
+							</div>
+						</div>
+					</div>
+					<div class="card" style="border-bottom: none">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Как долго создаётся Корпоративный Сайт? <i class="far fa-chevron-down"></i>
+								</a>
+							</h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<p>От недели до 4 недель. Всё зависит от объёма работы: сложности дизайна и вёрстки, количества предоставленной информации и других факторов.</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div id="shop" class="tab-pane fade"><br>
-					<section class="land-page" style="background-color: #fff; background-size: cover">
-						<br>
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col">
-									<h1 class="p-head" id="land2">
-										ИНТЕРНЕТ МАГАЗИН
-									</h1>
-								</div>
-							</div>
-							<div class="row center" >
-								<div class="col-lg-3  shop-pro shop-all landing-all">
-									<h4 style="font-weight: 300">Pro*</h4>
-									<p>₴ <span  style="font-size: 36px;">18000</span></p>
-									<ul>
-										<li>Готовый Веб-Сайт<i class="fal fa-check"></i></li>
-										<li>CMS Система<i class="fal fa-check"></i></li>
-										<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
-										<li>Наполнение Контентом<i class="fal fa-check"></i></li>
-										<li>Настройка Сервера<i class="fal fa-check"></i></li>
-										<li>HTTPS, SSL<i class="fal fa-check"></i></li>
-										<li>SEO - Оптимизация<i class="fal fa-check"></i></li>
-										<li>Marketing (Google, SMM)<i class="fal fa-check"></i></li>
-									</ul>
-									<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal3">Заказать<i class="far fa-handshake-alt"></i></a>
-									<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
-								</div>
-								<div class="col-lg-3  shop-basic shop-all landing-all">
-									<h4 style="font-weight: 700">Basic</h4>
-									<p>₴ <span  style="font-size: 36px;">15000</span></p>
-									<ul>
-										<li>Готовый Веб-Сайт<i class="fal fa-check"></i></li>
-										<li>CMS Система<i class="fal fa-check"></i></li>
-										<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
-										<li>Наполнение Контентом<i class="fal fa-check"></i></li>
-										<li>Настройка Сервера<i class="fal fa-check"></i></li>
-										<li>HTTPS, SSL<i class="fal fa-check"></i></li>
-										<li>SEO - Оптимизация<i class="fal fa-check"></i></li>
-										<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
-									</ul>
-									<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal3">Заказать <i class="far fa-handshake-alt"></i></a>
-									<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
-								</div>
+
+			</div>
+			<div id="shop" class="tab-pane fade"><br>
+				<section class="land-page" style="background-color: #fff; background-size: cover">
+					<br>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col">
+								<h1 class="p-head" id="land2">
+									ИНТЕРНЕТ МАГАЗИН
+								</h1>
 							</div>
 						</div>
-						<br>
-					</section>
+						<div class="row center" >
+							<div class="col-lg-3  shop-pro shop-all landing-all">
+								<h4 style="font-weight: 300">Pro*</h4>
+								<p>₴ <span  style="font-size: 36px;">18000</span></p>
+								<ul>
+									<li>Готовый Веб-Сайт<i class="fal fa-check"></i></li>
+									<li>CMS Система<i class="fal fa-check"></i></li>
+									<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
+									<li>Наполнение Контентом<i class="fal fa-check"></i></li>
+									<li>Настройка Сервера<i class="fal fa-check"></i></li>
+									<li>HTTPS, SSL<i class="fal fa-check"></i></li>
+									<li>SEO - Оптимизация<i class="fal fa-check"></i></li>
+									<li>Marketing (Google, SMM)<i class="fal fa-check"></i></li>
+								</ul>
+								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal3">Заказать<i class="far fa-handshake-alt"></i></a>
+								<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
+							</div>
+							<div class="col-lg-3  shop-basic shop-all landing-all">
+								<h4 style="font-weight: 700">Basic</h4>
+								<p>₴ <span  style="font-size: 36px;">15000</span></p>
+								<ul>
+									<li>Готовый Веб-Сайт<i class="fal fa-check"></i></li>
+									<li>CMS Система<i class="fal fa-check"></i></li>
+									<li>Загрузка На Сервер<i class="fal fa-check"></i></li>
+									<li>Наполнение Контентом<i class="fal fa-check"></i></li>
+									<li>Настройка Сервера<i class="fal fa-check"></i></li>
+									<li>HTTPS, SSL<i class="fal fa-check"></i></li>
+									<li>SEO - Оптимизация<i class="fal fa-check"></i></li>
+									<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
+								</ul>
+								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal3">Заказать <i class="far fa-handshake-alt"></i></a>
+								<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
+							</div>
+						</div>
+					</div>
+					<br>
+				</section>
+				<div id="accordion">
+					<h1 class="s-head1"><span class="accent">?</span> Часто задаваемые вопросы</h1>
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<a class="btn btn-link" data-toggle="collapse" data-target="#collapse1-shop" aria-expanded="true" aria-controls="collapseOne">
+									Что такое интернет магазин?
+								</a>
+							</h5>
+						</div>
+						<div id="collapse1-shop" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2-shop" aria-expanded="false" aria-controls="collapseTwo">
+									Collapsible Group Item #2
+								</a>
+							</h5>
+						</div>
+						<div id="collapse2-shop" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h5 class="mb-0">
+								<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Collapsible Group Item #3
+								</a>
+							</h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
 
-		<section class="s-result container-fluid">
+	<section class="s-result container-fluid">
+		<div class="row">
+			<div class="col">
+				<h1 class="s-head1">
+					Как мы достигаем результат?
+				</h1>
+			</div>
+		</div>
+		<div class="row center">
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<i class="fal fa-flask"></i>
+				<h5>Анализирование</h5>
+				<p>Исследуется рынок и проводится детальное анализирование конкурентов.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<i class="fal fa-book"></i>
+				<h5>Контент</h5>
+				<p>Заполнение сайта самой важной и точной информацией, использование фото, видео и продающих текстов. </p>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<i class="fal fa-pencil"></i>
+				<h5>Проектирование</h5>
+				<p>Разработка индвидуального, эксклюзивного дизайна на основе Ваших пожеланий.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<i class="fal fa-cog"></i>
+				<h5>Разработка|Тестирование</h5>
+				<p>Используются самые последние стандарты и наиболее современные инструменты. Сайт будет максимально быстро и корректно работать во всех браузерах и различных устройствах.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<i class="fal fa-code"></i>
+				<h5>Оптимизация</h5>
+				<p>SEO - специалисты оптимизируют код сайта и его контент для быстрой загрузки и отображения ресурса на первых позициях поисковых машин.</p>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<i class="fal fa-person-dolly-empty"></i>
+				<h5>Продвижение</h5>
+				<p>После первичного анализа рынка, начинается настройка контекстной и таргетинговой рекламы в поисковой системе Google и в социальных сетях.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="instruments container-fluid">
+		<div class="row">
+			<div class="col">
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="contact-section" style="background-image: url(img/header-pr.jpg);">
+		<div class="container">			
+			<div class="row">
+				<div class="col-lg-4 col-md-12">
+					<h2 id="5"><span class="wow fadeIn" data-wow-delay="0.3s">Заказать</span> <br> <span class="wow fadeIn" data-wow-delay="0.5s">Проект</span></h2>
+					<p>Заполните форму и напишите пару слов о своем проекте, и мы обязательно Вам перезвоним.</p>
+					<p class="icon-par"><i class="fal fa-mobile"></i>
+						&nbsp &nbsp &nbsp &nbsp Позвоните по номеру <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 0660944908
+					</p>
+					<p class="icon-par"><i class="fab fa-telegram-plane"></i>
+						&nbsp &nbsp &nbsp &nbsp Напишите в наш Telegram, <br>  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp WhatsApp, Viber
+					</p>
+				</div>
+				<div class="col-lg-6 offset-lg-2 col-md-12 col-sm-12">
+					<div class="form-container">
+						<h4 class="center">Сделать Заказ</h4>
+						<form class="callback">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="slapp.agency.com">
+							<input type="hidden" name="admin_email" value="roliynyk68@gmail.com">
+							<input type="hidden" name="form_subject" value="Заявка з сайту Slapp">
+							<input type="hidden" name="Сторінка" value="">
+							<!-- END Hidden Required Fields -->
+							<label>Ваше имя</label>
+							<label class="name-form">Ваш номер</label>
+							<br>
+							<span><i class="fal fa-user-alt"></i></span>
+							<input type="text"  id="name-form" name="Name" placeholder="Петро Сагайдачний" required>
+							<span><i class="fal fa-mobile"></i></span>
+							<input type="text" id="number-form" name="number" placeholder="0660944908" required>
+							<label>Ваш E-Mail</label>
+							<br>
+							<span><i class="fal fa-envelope-open"></i></span>
+							<input type="text" id="mail-form" name="Name" placeholder="sagaida4niy@gmail.com" required>
+							<label>Сайт &nbsp &nbsp &nbsp &nbsp</label>
+							<label class="service-pack">Пакет Услуг</label>
+							<br>
+							<span><i class="fas fa-sort-down sort-1"></i></i></span>
+							<select id="select-site">
+								<option value="Landing Page">Landing Page</option>
+								<option value="Корпоративный сайт">Корпоративный сайт</option>
+								<option value="Инетрнет магазин">Инетрнет магазин</option>
+							</select>
+							<span><i class="fas fa-sort-down sort-2"></i></i></span>
+							<select id="select-pack">
+								<option value="Basic">Basic</option>
+								<option value="Starter">Starter</option>
+								<option value="Pro">Pro</option>
+							</select>
+							<br>	
+							<label>Пару слов о Вашем проекте</label>
+							<br>
+							<textarea placeholder="" rows="3"  type="text" name="Extra"></textarea>
+							<button class="btn button-form">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<section class="s-how">
+		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h1 class="s-head1">
-						Как мы достигаем результат?
-					</h1>
+					<h1 id="22" class="s-head1"><span class="wow fadeIn" data-wow-delay="0.5s">Как</span> <span class="wow fadeIn" data-wow-delay="0.7s">мы</span> <span class="wow fadeIn" data-wow-delay="0.9s">работаем?</span></h1>
 				</div>
 			</div>
 			<div class="row center">
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<i class="fal fa-flask"></i>
-					<h5>Анализирование</h5>
-					<p>Исследуется рынок и проводится детальное анализирование конкурентов.</p>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<i class="fal fa-book"></i>
-					<h5>Контент</h5>
-					<p>Заполнение сайта самой важной и точной информацией, использование фото, видео и продающих текстов. </p>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<i class="fal fa-pencil"></i>
-					<h5>Проектирование</h5>
-					<p>Разработка индвидуального, эксклюзивного дизайна на основе Ваших пожеланий.</p>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<i class="fal fa-cog"></i>
-					<h5>Разработка|Тестирование</h5>
-					<p>Используются самые последние стандарты и наиболее современные инструменты. Сайт будет максимально быстро и корректно работать во всех браузерах и различных устройствах.</p>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<i class="fal fa-code"></i>
-					<h5>Оптимизация</h5>
-					<p>SEO - специалисты оптимизируют код сайта и его контент для быстрой загрузки и отображения ресурса на первых позициях поисковых машин.</p>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<i class="fal fa-person-dolly-empty"></i>
-					<h5>Продвижение</h5>
-					<p>После первичного анализа рынка, начинается настройка контекстной и таргетинговой рекламы в поисковой системе Google и в социальных сетях.</p>
+				<div class="col-10 offset-1 col-sm-8 offset-sm-2">
+					<ul class="timeline timeline-centered">
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>1</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInRight" data-wow-offset="120">
+								<h5 class="timeline-title ">Планирование</h5>
+								<p>Обсуждение целей для будущего сайта, его структуры, элементов дизайна, внешнего вида. Подготовка и подписание контракта.<br><br><br><br><br></p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>2</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInLeft" data-wow-offset="120">
+								<h5 class="timeline-title">ПРЕДОПЛАТА</h5>
+								<p>Предоплата составляет 20% от стоимости выбранного пакета согласно контракту.<br><br><br></p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>3</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInRight" data-wow-offset="120">
+								<h5 class="timeline-title">ПРОЕКТИРОВАНИЯ</h5>
+								<p>Создание дизайна вебсайта на основе Ваших пожеланий, проектикорание структуры сайта.<br>
+									<br><br>
+									<br>
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>4</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInLeft" data-wow-offset="120">
+								<h5 class="timeline-title">	ДЕМОНСТРАЦИЯ</h5>
+								<p>Утверждение макета сайта, обсуждение деталей. После согласования, начинается работа над его наполнением.<br><br><br><br><br> </p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>5</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInRight" data-wow-offset="120">
+								<h5 class="timeline-title">РАЗРАБОТКА</h5>
+								<p>Создание вебсайта по утверждённому макету нашими программистами.<br>
+									<br><br>
+									<br>
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>6</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInLeft" data-wow-offset="120">
+								<h5 class="timeline-title">ТЕСТИРОВАНИЕ</h5>
+								<p>Загрузка проекта на тестовый сервер. Проверка функционала сайта, корректность отображения контента на всех устройствах.<br><br><br><br><br> </p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>7</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInRight" data-wow-offset="180">
+								<h5 class="timeline-title">ЗАПУСК</h5>
+								<p>Регистрация домена и хостинга. Перенос вебсайта с тестового сервера на финальный. Настройка финального сервера.<br><br><br><br><br> </p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>8</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInLeft" data-wow-offset="120">
+								<h5 class="timeline-title">ОПЛАТА</h5>
+								<p>Оплата готового и настроенного сайта, который размещён на хостинге<br><br><br><br><br></p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>9</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content wow fadeInRight" data-wow-offset="120">
+								<h5 class="timeline-title">ДОПОЛНИТЕЛЬНО</h5>
+								<p>Дальнейшие действия зависят от выбранного пакета<br><br><br><br><br></p>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
 
-		<section class="instruments container-fluid">
-			<div class="row">
-				<div class="col">
 
+
+	<footer style="background-color: #fff">
+		<div class="container">
+			<div class="row f-row">
+				<div class="col-md-12 col-lg-4 img-footer wow fadeIn" data-wow-delay="0/5s">	
+					<img src="img/logo.png" height="50" width="75" alt="" style="opacity: 0.5">
+					<p>SLAPP</p>
+					<p>Digital Agency</p>
 				</div>
-			</div>
-		</section>
+				<div class="col-md-12 col-lg-4 nav-footer wow fadeIn" data-wow-delay="0.7s">	
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<a href="#0" class="nav-link first-element"><i class="fal fa-home"></i>&nbsp &nbspГЛАВНАЯ
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link" id="navbardrop">
+								<i class="fal fa-hands-usd"></i>&nbsp &nbsp ЦЕНЫ &nbsp
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#3" class="nav-link"><i class="fal fa-briefcase"></i>&nbsp &nbspКЕЙСЫ
+							</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#2" class="nav-link" id="navbardrop">
+								<i class="fal fa-book"></i>&nbsp &nbspБЛОГ
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-12 col-lg-4 icon-footer wow fadeIn" data-wow-delay="0.9s">
+					<div class="section-left">
+						<p>&nbsp <i style="font-size: 13px; color: #e74c3c" class="fas fa-location-arrow"></i>
 
-
-
-
-		<section class="contact-section" style="background-image: url(img/header-pr.jpg);">
-			<div class="container">			
-				<div class="row">
-					<div class="col-lg-4 col-md-12">
-						<h2 id="5"><span class="wow fadeIn" data-wow-delay="0.3s">Заказать</span> <br> <span class="wow fadeIn" data-wow-delay="0.5s">Проект</span></h2>
-						<p>Заполните форму и напишите пару слов о своем проекте, и мы обязательно Вам перезвоним.</p>
-						<p class="icon-par"><i class="fal fa-mobile"></i>
-							&nbsp &nbsp &nbsp &nbsp Позвоните по номеру <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 0660944908
+							&nbsp
+							Ukraine, Kyiv
+							<br>
+							&nbsp &nbsp &nbsp 0660944908
 						</p>
-						<p class="icon-par"><i class="fab fa-telegram-plane"></i>
-							&nbsp &nbsp &nbsp &nbsp Напишите в наш Telegram, <br>  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp WhatsApp, Viber
-						</p>
 					</div>
-					<div class="col-lg-6 offset-lg-2 col-md-12 col-sm-12">
-						<div class="form-container">
-							<h4 class="center">Сделать Заказ</h4>
-							<form class="callback">
-								<!-- Hidden Required Fields -->
-								<input type="hidden" name="project_name" value="slapp.agency.com">
-								<input type="hidden" name="admin_email" value="roliynyk68@gmail.com">
-								<input type="hidden" name="form_subject" value="Заявка з сайту Slapp">
-								<input type="hidden" name="Сторінка" value="">
-								<!-- END Hidden Required Fields -->
-								<label>Ваше имя</label>
-								<label class="name-form">Ваш номер</label>
-								<br>
-								<span><i class="fal fa-user-alt"></i></span>
-								<input type="text"  id="name-form" name="Name" placeholder="Петро Сагайдачний" required>
-								<span><i class="fal fa-mobile"></i></span>
-								<input type="text" id="number-form" name="number" placeholder="0660944908" required>
-								<label>Ваш E-Mail</label>
-								<br>
-								<span><i class="fal fa-envelope-open"></i></span>
-								<input type="text" id="mail-form" name="Name" placeholder="sagaida4niy@gmail.com" required>
-								<label>Сайт &nbsp &nbsp &nbsp &nbsp</label>
-								<label class="service-pack">Пакет Услуг</label>
-								<br>
-								<span><i class="fas fa-sort-down sort-1"></i></i></span>
-								<select id="select-site">
-									<option value="Landing Page">Landing Page</option>
-									<option value="Корпоративный сайт">Корпоративный сайт</option>
-									<option value="Инетрнет магазин">Инетрнет магазин</option>
-								</select>
-								<span><i class="fas fa-sort-down sort-2"></i></i></span>
-								<select id="select-pack">
-									<option value="Basic">Basic</option>
-									<option value="Starter">Starter</option>
-									<option value="Pro">Pro</option>
-								</select>
-								<br>	
-								<label>Пару слов о Вашем проекте</label>
-								<br>
-								<textarea placeholder="" rows="3"  type="text" name="Extra"></textarea>
-								<button class="btn button-form">Отправить</button>
-							</form>
-						</div>
-					</div>
+					<br>
+					<ul class="right-element">
+						<li><a href=""><i class="fab fa-telegram-plane"></i></a></li>
+						<li><a href=""><i class="fab fa-instagram"></i></a></li>
+						<li><a href=""><i class="fas fa-phone"></i></a></li>
+					</ul>
 				</div>
 			</div>
-		</section>
-
-
-
-
-
-		<section class="s-how">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<h1 id="22" class="s-head1"><span class="wow fadeIn" data-wow-delay="0.5s">Как</span> <span class="wow fadeIn" data-wow-delay="0.7s">мы</span> <span class="wow fadeIn" data-wow-delay="0.9s">работаем?</span></h1>
-					</div>
-				</div>
-				<div class="row center">
-					<div class="col-10 offset-1 col-sm-8 offset-sm-2">
-						<ul class="timeline timeline-centered">
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>1</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInRight" data-wow-offset="120">
-									<h5 class="timeline-title ">Планирование</h5>
-									<p>Обсуждение целей для будущего сайта, его структуры, элементов дизайна, внешнего вида. Подготовка и подписание контракта.<br><br><br><br><br></p>
-								</div>
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>2</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInLeft" data-wow-offset="120">
-									<h5 class="timeline-title">ПРЕДОПЛАТА</h5>
-									<p>Предоплата составляет 20% от стоимости выбранного пакета согласно контракту.<br><br><br></p>
-								</div>
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>3</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInRight" data-wow-offset="120">
-									<h5 class="timeline-title">ПРОЕКТИРОВАНИЯ</h5>
-									<p>Создание дизайна вебсайта на основе Ваших пожеланий, проектикорание структуры сайта.<br>
-										<br><br>
-										<br>
-									</p>
-								</div>
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>4</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInLeft" data-wow-offset="120">
-									<h5 class="timeline-title">	ДЕМОНСТРАЦИЯ</h5>
-									<p>Утверждение макета сайта, обсуждение деталей. После согласования, начинается работа над его наполнением.<br><br><br><br><br> </p>
-								</div>
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>5</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInRight" data-wow-offset="120">
-									<h5 class="timeline-title">РАЗРАБОТКА</h5>
-									<p>Создание вебсайта по утверждённому макету нашими программистами. SEO - оптимизация ресурса.<br>
-										<br><br>
-										<br>
-									</p>
-								</div>
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>6</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInLeft" data-wow-offset="120">
-									<h5 class="timeline-title">ТЕСТИРОВАНИЕ</h5>
-									<p>Загрузка проекта на тестовый сервер. Проверка функционала сайта, корректность отображения контента на всех устройствах.<br><br><br><br><br> </p>
-								</div>
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>7</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInRight" data-wow-offset="180">
-									<h5 class="timeline-title">ЗАПУСК</h5>
-									<p>Регистрация домена и хостинга. Перенос вебсайта с тестового сервера на финальный. Настройка финального сервера.<br><br><br><br><br> </p>
-								</div>
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>8</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInLeft" data-wow-offset="120">
-									<h5 class="timeline-title">ОПЛАТА</h5>
-									<p>Оплата готового и настроенного сайта, который размещён на хостинге<br><br><br><br><br></p>
-								</div>
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-info">
-									<span>9</span>
-								</div>
-								<div class="timeline-marker"></div>
-								<div class="timeline-content wow fadeInRight" data-wow-offset="120">
-									<h5 class="timeline-title">ДОПОЛНИТЕЛЬНО</h5>
-									<p>Дальнейшие действия зависят от выбранного пакета<br><br><br><br><br></p>
-								</div>
-							</li>
-						</ul>
-					</div>
+			<div class="row low-foot">
+				<div class="col wow fadeIn" data-wow-delay="1.1s">
+					<p>© since 2016</p>
 				</div>
 			</div>
-		</section>
+		</div>
+	</footer>
+
+	<script src="js/scripts.min.js"></script>
 
 
-
-
-		<footer style="background-color: #fff">
-			<div class="container">
-				<div class="row f-row">
-					<div class="col-md-12 col-lg-4 img-footer wow fadeIn" data-wow-delay="0/5s">	
-						<img src="img/logo.png" height="50" width="75" alt="" style="opacity: 0.5">
-						<p>SLAPP</p>
-						<p>Digital Agency</p>
-					</div>
-					<div class="col-md-12 col-lg-4 nav-footer wow fadeIn" data-wow-delay="0.7s">	
-						<ul class="navbar-nav">
-							<li class="nav-item dropdown">
-								<a href="#0" class="nav-link first-element"><i class="fal fa-home"></i>&nbsp &nbspГЛАВНАЯ
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link" id="navbardrop">
-									<i class="fal fa-hands-usd"></i>&nbsp &nbsp ЦЕНЫ &nbsp
-								</a>
-							</li>
-							<li class="nav-item dropdown">
-								<a href="#3" class="nav-link"><i class="fal fa-briefcase"></i>&nbsp &nbspКЕЙСЫ
-								</a>
-							</li>
-							<li class="nav-item dropdown">
-								<a href="#2" class="nav-link" id="navbardrop">
-									<i class="fal fa-book"></i>&nbsp &nbspБЛОГ
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-12 col-lg-4 icon-footer wow fadeIn" data-wow-delay="0.9s">
-						<div class="section-left">
-							<p>&nbsp <i style="font-size: 13px; color: #e74c3c" class="fas fa-location-arrow"></i>
-
-								&nbsp
-								Ukraine, Kyiv
-								<br>
-								&nbsp &nbsp &nbsp 0660944908
-							</p>
-						</div>
-						<br>
-						<ul class="right-element">
-							<li><a href=""><i class="fab fa-telegram-plane"></i></a></li>
-							<li><a href=""><i class="fab fa-instagram"></i></a></li>
-							<li><a href=""><i class="fas fa-phone"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="row low-foot">
-					<div class="col wow fadeIn" data-wow-delay="1.1s">
-						<p>© since 2016</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-		<script src="js/scripts.min.js"></script>
-
-
-	</body>
-	</html>
+</body>
+</html>
