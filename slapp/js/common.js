@@ -87,6 +87,23 @@ $(function() {
 	});
 
 
+	$(".functions").owlCarousel({
+		loop: true,
+		smartSpeed: 700,
+		nav: false,
+		autoplay: false,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1
+			}
+		}
+	});
+
+
+
+
+
 
 	new WOW().init();
 
@@ -298,3 +315,4 @@ $(function() {
 
 
 });
+
