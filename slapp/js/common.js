@@ -91,7 +91,8 @@ $(function() {
 		loop: true,
 		smartSpeed: 700,
 		nav: false,
-		autoplay: false,
+		autoplay: true,
+		autoplayTimeout: 9500,
 		responsiveClass: true,
 		responsive: {
 			0: {
@@ -99,7 +100,6 @@ $(function() {
 			}
 		}
 	});
-
 
 
 
@@ -316,3 +316,6 @@ $(function() {
 
 });
 
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover(); 
+});
