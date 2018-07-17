@@ -297,6 +297,7 @@ $(function() {
 
 
 
+	$('#container').mixItUp();
 
 
 
