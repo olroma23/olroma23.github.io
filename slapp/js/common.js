@@ -105,7 +105,12 @@ $(function() {
 
 
 
-	new WOW().init();
+	wow = new WOW(
+	{
+		duration: "2s"  
+	}
+	)
+	wow.init();
 
 	$(window).on('load', function(){
 		$('.preloader').fadeOut('slow');
