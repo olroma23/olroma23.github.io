@@ -33,7 +33,11 @@
 
 <body>
 	<div class="header-blog">
-		<p id="0" style="position: absolute; top: 0"></p>
+
+
+
+		<p id="0" style="position: absolute; top: 0">
+		</p>
 		<a title="Вверх" href="#0" class="on-top">
 			<i class="fal fa-angle-up"></i>
 		</a>
@@ -244,31 +248,32 @@
 		</div>
 
 		<h1 class="blog-h"> CURRENTLY, BLOG IS UNDER THE CONSTRUCTION</span></h1>
-		<script src="js/scripts.min.js"></script>
+	</div>
+	<script src="js/scripts.min.js"></script>
 
-		<script>
-			$(function() {
+	<script>
+		$(function() {
 
-				const animationManager = {
+			const animationManager = {
 
-					init: function() {
-						this.buildElements()
-						this.startIntervalCounter()
-					},
-					getRandomInt: function(min, max, string = true) {
-						min = Math.ceil(min);
-						max = Math.floor(max);
-						if(string){
-							return String(Math.floor(Math.random() * (max - min)) + min)
-						}
-						return Math.floor(Math.random() * (max - min)) + min
-					},
+				init: function() {
+					this.buildElements()
+					this.startIntervalCounter()
+				},
+				getRandomInt: function(min, max, string = true) {
+					min = Math.ceil(min);
+					max = Math.floor(max);
+					if(string){
+						return String(Math.floor(Math.random() * (max - min)) + min)
+					}
+					return Math.floor(Math.random() * (max - min)) + min
+				},
 
-					buildElements: function() {
-						const sparkElements = document.querySelectorAll('.spark')
-						const weldElements = document.querySelectorAll('.weld-container')
+				buildElements: function() {
+					const sparkElements = document.querySelectorAll('.spark')
+					const weldElements = document.querySelectorAll('.weld-container')
 
-						sparkElements.forEach((spark, index) => {
+					sparkElements.forEach((spark, index) => {
 
         // create weld item first
         let sibling = weldElements[index]
@@ -285,9 +290,9 @@
         	spark.appendChild(sparkDiv)
         }
       })
-					},
-					generateSpark: function(delay) {
-						let sparkDiv = document.createElement('div')
+				},
+				generateSpark: function(delay) {
+					let sparkDiv = document.createElement('div')
         // set standard properties
         sparkDiv.classList = 'particle'
         sparkDiv.style.top = animationManager.getRandomInt(25,35) + "px"
