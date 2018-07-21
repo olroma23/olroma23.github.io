@@ -108,7 +108,7 @@ $(function() {
 	new WOW().init();
 
 	$(window).on('load', function(){
-		$('.preloader').delay(50).fadeOut('slow');
+		$('.preloader').fadeOut('slow');
 	})
 
 	var vids = $("video"); 
