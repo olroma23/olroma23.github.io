@@ -105,16 +105,13 @@ $(function() {
 
 
 
-	wow = new WOW(
-	{
-		duration: "2s"  
-	}
-	)
-	wow.init();
+	new WOW().init();
 
 	$(window).on('load', function(){
-		$('.preloader').fadeOut('slow');
-	})
+		$('.preloader').fadeOut();
+	});
+
+
 
 	var vids = $("video"); 
 	$.each(vids, function(){

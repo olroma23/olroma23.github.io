@@ -1,22 +1,6 @@
 $(function() {
   $('#container').mixItUp().sort();
 });
-
-/**!
- * MixItUp v3.1.9
- * A high-performance, dependency-free library for animated filtering, sorting and more
- * Build 659c281f-47ce-429c-a467-6e1d960b3f52
- *
- * @copyright Copyright 2014-2017 KunkaLabs Limited.
- * @author    KunkaLabs Limited.
- * @link      https://www.kunkalabs.com/mixitup/
- *
- * @license   Commercial use requires a commercial license.
- *            https://www.kunkalabs.com/mixitup/licenses/
- *
- *            Non-commercial use permitted under same terms as CC BY-NC 3.0 license.
- *            http://creativecommons.org/licenses/by-nc/3.0/
- */
 ! function(t) {
   "use strict";
   var e = null,
