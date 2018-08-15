@@ -318,7 +318,7 @@ $(function() {
 				var max, min;
 				var pos = $(this).scrollTop();
 				selectors.item.each(function(i) {
-					min = $(this).offset().top - 200;
+					min = $(this).offset().top - 100;
 					max = $(this).height() + $(this).offset().top;
 					var that = $(this);
 					if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
@@ -372,6 +372,15 @@ $(function() {
 		}
 		else $(".on-top").removeClass("on-top_active");
 	})
+
+	$(window).scroll(function(){
+		if ($(this).scrollTop()*4 > $(this).height()){
+			$(".down-fixed").addClass("down-fixed_active");
+		}
+		else $(".down-fixed").removeClass("down-fixed_active");
+	})
+
+
 
 	$("a").mPageScroll2id({
 		offset: 75
