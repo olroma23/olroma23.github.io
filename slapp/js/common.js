@@ -380,7 +380,12 @@ $(function() {
 		else $(".down-fixed").removeClass("down-fixed_active");
 	})
 
-
+	$(window).scroll(function(){
+		if ($(this).scrollTop()*4 > $(this).height()){
+			$(".down-fixed").addClass("down-fixed_active");
+		}
+		else $(".down-fixed").removeClass("down-fixed_active");
+	})
 
 	$("a").mPageScroll2id({
 		offset: 75
