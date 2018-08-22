@@ -1,3 +1,6 @@
+
+
+
 $(document).mouseup(function (e) {
 	var container = $(".sidenav");
 	if (container.has(e.target).length === 0){
@@ -107,9 +110,6 @@ $(function() {
 
 	new WOW().init();
 
-	$(window).on('load', function(){
-		$('.preloader').fadeOut();
-	});
 
 
 
@@ -255,7 +255,7 @@ $(function() {
 	$("#select-pack3").focusout(function(){
 		$(".form-container").removeClass("active-icon4");
 	});
-	
+
 
 
 	$("#name-form4").focus(function(){
@@ -288,7 +288,7 @@ $(function() {
 	$("#select-pack4").focusout(function(){
 		$(".form-container").removeClass("active-icon4");
 	});
-	
+
 
 
 
