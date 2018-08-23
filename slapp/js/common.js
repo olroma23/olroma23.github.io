@@ -1,12 +1,20 @@
 
-$(window).on('load', function(){
-	$('.preloader1').fadeOut();
+
+
+$(window).on('load', function() {
+	$('.preloader1').addClass("preloader1_anim");
+		$('.first-element').addClass("first-element_anim");
+		$('.second-element').addClass("second-element_anim");
+		$('.third-element').addClass("third-element_anim");
+		$('.fourth-element').addClass("fourth-element_anim");
+		$('.fifth-element').addClass("fifth-element_anim");
+		$('.sixth-element').addClass("sixth-element_anim");
 });
 
 
+
 $(function() {
-	
-	$('.preloader1').fadeOut();
+
 
 	$(".first-element").click(function(){
 		$(".dropdown-toggle").toggleClass("rotate-first-class");
