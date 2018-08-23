@@ -3,12 +3,31 @@
 
 $(window).on('load', function() {
 	$('.preloader1').addClass("preloader1_anim");
-		$('.first-element').addClass("first-element_anim");
-		$('.second-element').addClass("second-element_anim");
-		$('.third-element').addClass("third-element_anim");
-		$('.fourth-element').addClass("fourth-element_anim");
-		$('.fifth-element').addClass("fifth-element_anim");
-		$('.sixth-element').addClass("sixth-element_anim");
+	$('.first-element').addClass("first-element_anim");
+	$('.second-element').addClass("second-element_anim");
+	$('.third-element').addClass("third-element_anim");
+	$('.fourth-element').addClass("fourth-element_anim");
+	$('.fifth-element').addClass("fifth-element_anim");
+	$('.sixth-element').addClass("sixth-element_anim");
+	$('.navbar-brand').addClass("navbar-brand_anim");
+	$('.right-element-first').addClass("right-element-first_anim");
+	$('.right-element-second').addClass("right-element-second_anim");
+	$('.right-element-third').addClass("right-element-third_anim");
+	$('.left-element-first').addClass("left-element-first_anim");
+	$('.left-element-second').addClass("left-element-second_anim");
+	$('.left-element-third').addClass("left-element-third_anim");
+	$('.h-img').addClass("h-img_anim");
+	$('.p-first').addClass("p-first_anim");
+	$('.p-second').addClass("p-second_anim");
+	$('.p-third').addClass("p-third_anim");
+	$('.p-fourth').addClass("p-fourth_anim");
+	$('.prim-btn').addClass("prim-btn_anim");
+	$('.left-line').addClass("left-line_anim");
+	$('.menu-btn').addClass("menu-btn_anim");
+	$('.center-element-first').addClass("center-element-first_anim");
+	$('.center-element-second').addClass("center-element-second_anim");
+	$('.center-element-third').addClass("center-element-third_anim");
+	$('.down-section').addClass("down-section_anim");
 });
 
 
