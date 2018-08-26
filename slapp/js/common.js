@@ -38,7 +38,9 @@ $(function() {
 	$(".first-element").click(function(){
 		$(".dropdown-toggle").toggleClass("rotate-first-class");
 	});
-
+	$(".second-element").click(function(){
+		$(".dropdown-toggle").toggleClass("rotate-second-class");
+	});
 
 
 
@@ -73,6 +75,32 @@ $(function() {
 		}
 	});
 
+
+	$('.clients').owlCarousel({
+		loop: true,
+		smartSpeed: 700,
+		nav: false,
+		autoplay: true,
+		autoplayTimeout: 2400,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			576: {
+				items: 2
+			},
+			768:{
+				items: 2
+			},
+			992: {
+				items: 3
+			}, 
+			1200: {
+				items: 4
+			}
+		}
+	});
 
 
 
@@ -394,12 +422,17 @@ $(document).mouseup(function (e) {
 			$(".sidenav").toggleClass("sidenav-close");
 			$('.menu-btn').removeClass('menu-btn_active');
 			$(".dropdown-toggle").removeClass("rotate-first-class");
+			$(".dropdown-toggle").removeClass("rotate-second-class");
 		});
 	}
 });
 
 $(".dropdown-item").click(function(){
 	$(".dropdown-toggle").toggleClass("rotate-first-class");
+});
+
+$(".dropdown-item").click(function(){
+	$(".dropdown-toggle").toggleClass("rotate-second-class");
 });
 
 
