@@ -28,6 +28,10 @@ $(window).on('load', function() {
 	$('.center-element-second').addClass("center-element-second_anim");
 	$('.center-element-third').addClass("center-element-third_anim");
 	$('.down-section').addClass("down-section_anim");
+	$('.left-line').addClass("left-line_anim");
+	$('.left1-line').addClass("left1-line_anim");
+	$('.left2-line').addClass("left2-line_anim");
+	$('.left3-line').addClass("left3-line_anim");
 });
 
 
@@ -51,7 +55,7 @@ $(function() {
 		dots: false,
 		nav: true,
 		autoplay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 10000,
 		responsiveClass: true,
 		responsive: {
 			0: {
@@ -81,7 +85,7 @@ $(function() {
 		smartSpeed: 700,
 		nav: false,
 		autoplay: true,
-		autoplayTimeout: 2400,
+		autoplayTimeout: 1800,
 		responsiveClass: true,
 		responsive: {
 			0: {
