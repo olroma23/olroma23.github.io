@@ -359,7 +359,9 @@ $(function() {
 	// 	};
 	// })(jQuery);
 
-	$("#timeline-1").timeline();
+	
+
+	// $("#timeline-1").timeline();
 
 
 
