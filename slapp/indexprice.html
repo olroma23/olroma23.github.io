@@ -37,6 +37,10 @@
 
 
 
+		<div class="left-line"></div>
+		<div class="left1-line"></div>
+		<div class="left2-line"></div>
+		<div class="left3-line"></div>
 
 
 		<div class="preloader1">
@@ -56,24 +60,32 @@
 		<a title="Вверх" href="#0" class="on-top">
 			<i class="fal fa-angle-up"></i>
 		</a>
-
 		<div style="padding-left: 0" class="sidenav navbar">
 			<ul class="navbar-nav">
-				<li class="nav-item dropdown">
+				<li class="nav-item">
 					<a href="index.html" class="nav-link first-element"><i class="fal fa-home"></i>&nbsp &nbspГЛАВНАЯ
 					</a>
 				</li>
-				<li class="nav-item">
-					<a href="indexprice.html" class="nav-link"><i class="fal fa-hands-usd"></i>&nbsp &nbspЦЕНЫ
+				<li class="nav-item dropdown">
+					<a href="indexprice.html" class="nav-link dropdown-toggle second-element" id="navbardrop" data-toggle="dropdown"><i class="fal fa-tag"></i>&nbsp &nbsp УСЛУГИ И ЦЕНЫ &nbsp
 					</a>
+					<div style="position: absolute;" class="dropdown-menu">
+						<a class="dropdown-item" href="#"><i class="far fa-code"></i> &nbsp Разработка</a>
+						<a class="dropdown-item" href="#"><i class="far fa-paint-brush"></i> &nbsp Дизайн</a>
+						<a class="dropdown-item" href="#"><i class=" far fa-lightbulb"></i> &nbsp Маркетинг</a>
+					</div>
 				</li>
 				<li class="nav-item">
 					<a href="indexcase.html" class="nav-link"><i class="fal fa-briefcase"></i>&nbsp &nbspПОРТФОЛИО
 					</a>
 				</li>
 				<li class="nav-item">
+					<a href="indexcase.html" class="nav-link"><i class="fal fa-code-commit"></i>&nbsp &nbspПРОЦЕСС
+					</a>
+				</li>
+				<li class="nav-item">
 					<a href="indexblog.html" class="nav-link">
-						<i class="fal fa-book"></i>&nbsp &nbspБЛОГ
+						<i class="fal fa-pen"></i>&nbsp &nbspБЛОГ
 					</a>
 				</li>
 			</ul>
@@ -87,23 +99,20 @@
 				<a style="margin-left: 60px; padding-left: 70px; border-left: 1px solid #999" href="">FR</a>
 			</div>
 			<div class="sidenav-bot">
-				<p style="margin-bottom: 0"><i style="font-size: 13px; color: #e74c3c" class="fas fa-location-arrow"></i>
-					&nbsp
-					Ukraine, Kyiv
+				<p style="margin-bottom: 0">
+					<i class="far fa-location-arrow"></i>&nbsp 
+					Киев, ул.Льва Толстого, 3
 				</p>
-				<p style="margin-bottom: 0"><i style="left: 0; font-size: 13px; color: #e74c3c" class="fas fa-phone"></i> &nbsp Номер:
-					097-077-44-92
-				</p>
-				<p><i style="font-size: 13px; color: #e74c3c" class="far fa-clock"></i>
-					&nbsp
-					Время работы: <br> &nbsp &nbsp &nbsp 	 пн-сб 9.00 - 20.00
+				<i class="far fa-phone"><a class="side-p">&nbsp 097-077-44-92</a></i>
+				<p>
+					<i class="far fa-clock"></i>&nbsp Пн-Сб 9.00 - 20.00
 				</p>
 			</div>
 		</div>
 
-		<nav class="navbar fixed-top navbar-expand-md navbar-dark wow fadeInDown" data-wow-delay="1s" data-wow-offset="100">
+		<nav class="navbar fixed-top navbar-expand-md navbar-dark">
 			<div class="container-fluid">
-				<a href="index.html" class="navbar-brand"><img style="height: 30px; width: 128px;" src="img/logo2.2.png" alt="slapp"></a>
+				<a href="index.html" class="navbar-brand"><img style="height: 27px; width: 39px;" src="img/logo.png" alt="slapp"></a>
 				<div class="ham-container">
 					<a class="menu-btn navbar-toggler">
 						<span></span>
@@ -112,31 +121,39 @@
 				<div class="collapse navbar-collapse" id="navbarMenu" >
 
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item dropdown">
+						<li class="nav-item">
 							<a href="index.html" class="nav-link first-element"><i class="fal fa-home"></i>&nbsp &nbsp ГЛАВНАЯ &nbsp
 							</a>
 						</li>
+						<li class="nav-item dropdown" style="width: 150px">
+							<a href="" class="dropdown-toggle nav-link second-element" data-toggle="dropdown">
+								<i class="fal fa-tag"></i>&nbsp &nbsp УСЛУГИ И ЦЕНЫ &nbsp
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="indexprice.html"><i class="far fa-code"></i> &nbsp Разработка</a>
+								<a class="dropdown-item" href="#"><i class="far fa-paint-brush"></i> &nbsp Дизайн</a>
+								<a class="dropdown-item" href="#"><i class="far fa-lightbulb"></i> &nbsp Маркетинг</a>
+							</div>
+						</li>
 						<li class="nav-item">
-							<a href="indexprice.html" class="nav-link" id="navbardrop">
-								<i class="fal fa-hands-usd"></i>&nbsp &nbsp ЦЕНЫ &nbsp
+							<a href="indexcase.html" class="nav-link third-element"><i class="fal fa-briefcase"></i>&nbsp &nbsp ПОРТФОЛИО &nbsp
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="indexcase.html" class="nav-link second-element" id="navbardrop"><i class="fal fa-briefcase"></i>&nbsp &nbsp ПОРТФОЛИО &nbsp
+							<a href="indexcase.html" class="nav-link fourth-element"><i class="fal fa-code-commit"></i>&nbsp &nbspПРОЦЕСС
 							</a>
 						</li>
-
-						<li class="nav-item">
-							<a href="indexblog.html" class="nav-link" id="navbardrop">
-								<i class="fal fa-book"></i>&nbsp &nbsp БЛОГ &nbsp
+						<li class="nav-item" style="width: 90px">
+							<a href="indexblog.html" class="nav-link fifth-element">
+								<i class="fal fa-pen"></i>&nbsp &nbsp БЛОГ &nbsp
 							</a>
 						</li>
 						<li class="nav-item search-link language-item">
-							<a href="" class="nav-link">FR
+							<a href="" class="nav-link sixth-element">FR
 							</a>
 						</li>
 						<li class="nav-item search-link mymove1">
-							<a href="#" class="nav-link" data-toggle="modal" data-target="#myModal">
+							<a href="#" class="nav-link seventh-element" data-toggle="modal" data-target="#myModal">
 								<i class="fas fa-phone"></i>
 							</a>
 						</li>
@@ -364,10 +381,10 @@
 
 		<section class="bgvideo1">
 			<div class="h-section">
-				<img src="img/logo.png" height="100" width="145" alt="" style="opacity: 0.5; visibility: visible;" class="wow fadeIn" data-wow-delay="0.5s">
+				<img class="h-img" src="img/logo.png">
 				<br>
 				<br>
-				<h1><span class="header2 p-first">Разработка</span><br><span class="header1 p-fourth">Веб-сайтов</span></h1>
+				<h1><span class="header2 p-second">Разработка</span><br><span class="header1 p-fourth">Веб-сайтов</span></h1>
 				<ul class="center-element">
 					<li class="center-element-first"><a title="Телеграм: 0970774492" href="https://telegram.me/slappagency"><i class="fab fa-telegram"></i></a></li>
 					<li class="center-element-second"><a title="Viber: 0970774492" href="viber://chat?number=+380970774492"><i class="fab fa-viber"></i></a></li>
@@ -410,15 +427,16 @@
 
 	<div class="container first-price">
 		<div id="1" class="row">
-			<div class="col center">
-				<h2 class="p-head" style="margin-bottom: 30px; margin-top: 90px; font-weight: 300">
-					<span class="wow fadeIn" data-wow-offset="110">Итак...</span> <span class="wow fadeIn" data-wow-delay="0.2s" data-wow-offset="110">Какой же</span> <span class="wow fadeIn" data-wow-delay="0.4s" data-wow-offset="110">сайт Вам</span> <span  class="wow fadeIn" data-wow-delay="0.5s" data-wow-offset="110">нужен?</span>
+			<div class="col">
+				<h1 class="header1 wow fadeIn" data-wow-offset="110">Начнём</h1>
+				<h2 class="header2">
+					<span class="wow fadeIn" data-wow-offset="110">Итак...</span> <span class="wow fadeIn" data-wow-delay="0.2s" data-wow-offset="110">Какой веб-</span><span class="wow fadeIn" data-wow-delay="0.4s" data-wow-offset="110">сайт Вам</span> <span  class="wow fadeIn" data-wow-delay="0.5s" data-wow-offset="110">нужен?</span>
 				</h2>
 			</div>
 		</div>
 		<div class="row center">
 			<div class="col">
-				<img  class="fa-arrow-down wow fadeInUp" data-wow-duration=".65s" data-wow-offset="150" src="img/logo.png" alt="">
+				<img class="h-img center" src="img/logo.png">
 			</div>
 		</div>
 		<div id="dot" style="position: absolute; top: 540px"></div>
@@ -426,13 +444,13 @@
 
 		<ul class="nav nav-pills justify-content-center">
 			<li class="nav-item ">
-				<a class="nav-link active wow fadeInLeft" data-wow-offset="110" href="#dot" data-target="#landing" data-toggle="pill">LANDING PAGE<i class="fal fa-angle-right"></i></a>
+				<a class="nav-link active wow fadeInLeft" data-wow-offset="110" href="#dot" data-target="#landing" data-toggle="pill">Landing Page</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link wow fadeIn" data-wow-offset="110" data-wow-delay="0.4s" href="#dot" data-target="#site" data-toggle="tab">КОРПОРАТИВНЫЙ САЙТ<i class="fal fa-angle-right"></i></a>
+				<a class="nav-link wow fadeIn" data-wow-offset="110" data-wow-delay="0.4s" href="#dot" data-target="#site" data-toggle="tab">Корпоративный Сайт</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link wow fadeInRight" data-wow-offset="110" href="#dot" data-target="#shop" data-toggle="tab">ИНТЕРНЕТ МАГАЗИН<i class="fal fa-angle-right"></i></a>
+				<a class="nav-link wow fadeInRight" data-wow-offset="110" href="#dot" data-target="#shop" data-toggle="tab">Интернет-Магазин</a>
 			</li>
 		</ul>
 	</div>
@@ -444,11 +462,13 @@
 				<section class="land-page" style="background-color: #fff;">
 					<br>
 					<div class="container-fluid">
-						<div class="row center">
-							<div class="col">
-								<h1 class="p-head" id="land">
-									<span class="wow fadeIn" data-wow-offset="120">LANDING</span> <span class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.2s">PAGE</span>
-								</h1>
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<h1 style="margin-top: 0!important" class="header2" id="land">
+										<span class="wow fadeIn" data-wow-offset="120">LANDING</span> <span class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.2s">PAGE</span>
+									</h1>
+								</div>
 							</div>
 						</div>
 						<div class="row center">
@@ -467,8 +487,9 @@
 									<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
 									<li class="li-pro">Административная Панель<i class="fal fa-times"></i></li>
 								</ul>
-								<a href="#" class="btn prim-btn" data-toggle="modal" data-target="#myModal1">Заказать<i class="far fa-handshake-alt"></i></a>
-								<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
+								<br>
+								<a href="" class="btn primary-btn" data-toggle="modal" data-target="#myModal1">Заказать</a>
+								<a href="#" class="btn secondary-btn"  data-toggle="modal" data-target="#myModal">Уточнить</a>
 							</div>
 							<div class="col-lg-3  landing-basic landing-all wow fadeInUp" data-wow-delay="0.15s" data-wow-duration=".65s" data-wow-offset="110">
 								<h4 style="font-weight: 700">Basic* <span style="font-weight: 300; font-size: 13px"><sup>хит продаж</sup></span></h4>
@@ -485,8 +506,9 @@
 									<li class="li-pro">Marketing (Google, SMM)<i class="fal fa-times"></i></li>
 									<li class="li-pro">Административная Панель<i class="fal fa-times"></i></li>
 								</ul>
-								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal1">Заказать <i class="far fa-handshake-alt"></i></a>
-								<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
+								<br>
+								<a href="" class="btn primary-btn" data-toggle="modal" data-target="#myModal1">Заказать</a>
+								<a href="#" class="btn secondary-btn"  data-toggle="modal" data-target="#myModal">Уточнить</a>
 							</div>
 							<div class="col-lg-3  landing-pro landing-all wow fadeInUp" data-wow-delay="0.3s" data-wow-duration=".65s" data-wow-offset="110">
 								<h4 style="font-weight: 300">Pro</h4>
@@ -503,8 +525,9 @@
 									<li>Marketing (Google, SMM)<i class="fal fa-check"></i></li>
 									<li>Административная Панель<i class="fal fa-check"></i></li>
 								</ul>
-								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal1">Заказать<i class="far fa-handshake-alt"></i></a>
-								<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
+								<br>
+								<a href="" class="btn primary-btn" data-toggle="modal" data-target="#myModal1">Заказать</a>
+								<a href="#" class="btn secondary-btn"  data-toggle="modal" data-target="#myModal">Уточнить</a>
 							</div>
 						</div>
 						<br>
@@ -785,8 +808,8 @@
 									<li>SEO - Оптимизация <br> каждой страницы<i class="fal fa-check"></i></li>
 									<li>Marketing (Google, SMM)<i class="fal fa-check"></i></li>
 								</ul>
-								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal2">Заказать<i class="far fa-handshake-alt"></i></a>
-								<a href="#" class="btn second-btn" data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
+								<a href="" class="btn prim-btn" data-toggle="modal" data-target="#myModal1">Заказать<i class="far fa-handshake-alt"></i></a>
+								<a href="#" class="btn second-btn"  data-toggle="modal" data-target="#myModal">Уточнить<i class="far fa-phone"></i></a>
 							</div>
 						</div>
 					</div>
@@ -1248,11 +1271,95 @@
 		</div>
 	</section>
 
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1 class="header1"><span class="wow fadeIn" data-wow-offset="120">Порфтолио</span> <span class="wow fadeIn" data-wow-delay="0.2s" data-wow-offset="120">проектов</span></h1>
+					<h2 class="header2"><span class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.3s">Примеры</span> <span class="wow fadeIn"  data-wow-offset="120" data-wow-delay="0.4s">наших</span> <span class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.5s">последних <br>работ</span></h2>
+				</div>
+			</div>
+		</div>
 
+		<br>
+
+
+		<div class="container-fluid s-port wow fadeIn" data-wow-offset="190">
+			<div class="row center">
+				<div class="mix col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 dev">
+					<div class="content">
+						<img scr="img/fake.jpg" realsrc="img/onlyitaly.jpeg" alt="">
+						<div class="after after-11">
+							<h4>ONLYITALY</h4>
+							<span class="badge badge-pill badge-danger">РАЗРАБОТКА</span>
+							<span class="badge badge-pill badge-orange">ИНТЕРНЕТ-МАРКЕТИНГ</span>
+							<br>
+							<p>Разработка минималистичного интернет магазина для дизайнерского магазина.</p>
+							<br>
+							<a target="_blank" href="https://onlyitaly.com.ua"><i class="fal fa-long-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 dev mar">
+					<div class="content">
+						<img scr="img/fake.jpg" realsrc="img/silla.jpeg" alt="">
+						<div class="after after-2">
+							<h4>SILLA</h4>
+							<span class="badge badge-pill badge-danger">РАЗРАБОТКА</span>
+							<span class="badge badge-pill badge-orange">ИНТЕРНЕТ-МАРКЕТИНГ</span>
+							<br>
+							<p>Разработка, оптимизация и продвижение Landing Page дизайнерских стульев укринского бренда SILLA.</p>
+							<br>
+							<a target="_blank" href="http://silla.com.ua"><i class="fal fa-long-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 dev">
+					<div class="content">
+						<img scr="img/fake.jpg" realsrc="img/mitler.jpeg" alt="">
+						<div class="after after-4">
+							<h4>EDEN MATIN</h4>
+							<span class="badge badge-pill badge-danger">РАЗРАБОТКА</span>
+							<br>
+							<p>Разработка и проектирование корпоративного сайта для сети салонов Eden Matin.</p>
+							<br>
+							<a target="_blank" href="http://edenmatin.com.ua"><i class="fal fa-long-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 dev mar">
+					<div class="content">
+						<img scr="img/fake.jpg" realsrc="img/gym.jpeg" alt="">
+						<div class="after after-10">
+							<h4>КРОССФИТ БАНДА</h4>
+							<span class="badge badge-pill badge-danger">РАЗРАБОТКА</span>
+							<span class="badge badge-pill badge-orange">ИНТЕРНЕТ-МАРКЕТИНГ</span>
+							<br>
+							<p>Создан корпоративный сайт для кроссфит зала Банда. Сделана оптимизация ресурса и настроена реклама.</p>
+							<br>
+							<a target="_blank" href="https://crossfitbanda.com/"><i class="fal fa-long-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 center">
+					<br>
+					<br>
+					<a style="transition: .2s" href="indexcase.html" class="btn prim-btn wow fadeInDown" data-wow-offset="120" data-wow-duration=".65s" >Посмотреть всё<i class="fal fa-long-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
 	<section style="margin-bottom: 80px" class="instruments container-fluid">
-		<div class="row">
-			<div class="col">
-				<h1 class="s-head1"><span class="wow fadeIn" data-wow-offset="110">Используемые</span> <span class="wow fadeIn" data-wow-delay="0.2s" data-wow-offset="110" >технологии и CMS</span></h1>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1 class="header1 wow fadeIn">технологии и cms</h1>
+					<h2 class="header2"><span class="wow fadeIn" data-wow-offset="110">Работаем с наиболее</span> <span class="wow fadeIn" data-wow-delay="0.2s" data-wow-offset="110" ><br>современными технологиями</span></h2>
+				</div>
 			</div>
 		</div>
 		<div class="row center wow fadeIn" data-wow-delay="0.45s">
@@ -1369,18 +1476,23 @@
 
 
 
+		<br>
 
 		<section class="contact-section" style="background-image: url(img/header-pr.jpg);">
 			<div class="container">			
 				<div class="row">
 					<div class="col-lg-4 col-md-12">
-						<h2 id="5"><span class="wow fadeIn" data-wow-offset="120">Заказать</span> <br> <span class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.15s">Проект</span></h2>
-						<p class="wow fadeIn" data-wow-offset="120">Заполните форму и напишите пару слов о своем проекте, и мы обязательно Вам перезвоним.</p>
-						<p class="icon-par wow fadeIn" data-wow-offset="120"><i class="fal fa-mobile"></i>
-							&nbsp &nbsp &nbsp &nbsp Позвоните по номеру <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 0970774492
+						<h3 class="header1 rev"><span class="wow fadeIn" data-wow-offset="120">Заполните</span> <span class="wow fadeIn" data-wow-delay="0.1s" data-wow-offset="120" >заявку</span></h3>
+						<h2><span class="wow fadeIn" data-wow-offset="120">Обсудим</span> <span class="wow fadeIn" data-wow-delay="0.1s" data-wow-offset="120" >ваш</span> <span class="wow fadeIn" data-wow-delay="0.2s" data-wow-offset="120" >проект</span></h2>
+						<p class="icon-par wow fadeIn" data-wow-offset="120" ><i class="fal fa-mobile"></i>
+							<a style="font-size: 15px" href="tel:+380970774492">097-077-44-92</a>
 						</p>
 						<p class="icon-par wow fadeIn" data-wow-offset="120"><i class="fab fa-telegram"></i>
-							&nbsp &nbsp &nbsp Напишите в наш <a href="https://telegram.me/slappagency">Telegram</a>, <br>  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp <a href="viber://chat?number=+380970774492">Viber</a>, или на нашу <a href="mailto:slapp.agency@gmail.com?Subject=Потенциальный%20Клиент">почту</a>
+							<a href="https://telegram.me/slappagency">TELEGRAM: @slappagency</a>
+						</p>
+						<p class="icon-par wow fadeIn" data-wow-offset="120"><i class="fal fa-envelope-open"></i> <a href=mailto:slapp.agency@gmail.com?Subject=Потенциальный%20Клиент>slapp.agency@gmail.com</a>
+						</p>
+						<p class="icon-par wow fadeIn" data-wow-offset="60"><i class="fab fa-viber"></i><a href="viber://add?number=0970774492">VIBER: 097-077-44-92</a>
 						</p>
 					</div>
 					<div class="col-lg-6 offset-lg-2 col-md-12 col-sm-12">
@@ -1423,7 +1535,7 @@
 								<label>Пару слов о Вашем проекте</label>
 								<br>
 								<textarea placeholder="" rows="3"  type="text" name="Extra"></textarea>
-								<button class="btn button-form">Отправить</button>
+								<button class="btn primary-btn">Отправить</button>
 							</form>
 						</div>
 					</div>
@@ -1547,152 +1659,65 @@
 		</section>
 
 
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<h1  id="1" class="s-head1" style="margin-bottom: 20px"><span class="wow fadeIn" data-wow-offset="120">Порфтолио</span> <span class="wow fadeIn" data-wow-delay="0.2s" data-wow-offset="120">проектов</span></h1>
-					<h3 class="p-head center" style="font-size: 20px; margin-bottom: 35px"><span class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.3s">Примеры</span> <span class="wow fadeIn"  data-wow-offset="120" data-wow-delay="0.4s">наших</span> <span class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.5s">последних работ</span></h3>
-				</div>
-			</div>
-		</div>
-
-		<br>
-
-		<div class="container-fluid s-port wow fadeIn" data-wow-offset="120">
-			<div class="row center">
-				<div class="mix col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 shop">
-					<div class="content">
-						<img scr="img/fake.jpg" realsrc="img/fitness.jpeg" alt="">
-						<div class="after">
-							<h4>FORFITNESS</h4>
-							<span class="badge badge-pill badge-danger">ИНТЕРНЕТ МАГАЗИН</span>
-							<br>
-							<p>Разработка и продвижение интернет магазина для спортивных вещей, сделана его оптимизация и настроена контекстная реклама для выведения магазина в топ.</p>
-							<br>
-							<a target="_blank" href="https://forfitness.com.ua" class="btn">Перейти <i class="far fa-arrow-right"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="mix col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 landing">
-					<div class="content">
-						<img scr="img/fake.jpg" realsrc="img/silla.jpeg" alt="">
-						<div class="after">
-							<h4>SILLA</h4>
-							<span class="badge badge-pill badge-danger">LANDING PAGE</span>
-							<br>
-							<p>Разработка, оптимизация и продвижение Landing Page дизайнерских стульев укринского бренда SILLA.</p>
-							<br>
-							<a target="_blank" href="http://silla.com.ua" class="btn">Перейти <i class="far fa-arrow-right"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="mix col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 landing">
-					<div class="content">
-						<img scr="img/fake.jpg" realsrc="img/mitler.jpeg" alt="">
-						<div class="after">
-							<h4>EDEN MATIN</h4>
-							<span class="badge badge-pill badge-danger">КОРПОРАТИВНЫЙ САЙТ</span>
-							<br>
-							<p>Разработка и проектирование корпоративного сайта для сети салонов Eden Matin.</p>
-							<br>
-							<a target="_blank" href="http://edenmatin.com.ua" class="btn">Перейти <i class="far fa-arrow-right"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="mix col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 site">
-					<div class="content">
-						<img scr="img/fake.jpg" realsrc="img/jasoren.jpeg" alt="">
-						<div class="after">
-							<h4>JASOREN</h4>
-							<span class="badge badge-pill badge-danger">КОРПОРАТИВНЫЙ САЙТ</span>
-							<br>
-							<p>Разработка и оптимизация корпоративного сайта для зарубежной компании.</p>
-							<br>
-							<a target="_blank" href="https://jasoren.com/" class="btn">Перейти <i class="far fa-arrow-right"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 center">
-					<br>
-					<br>
-					<a href="indexcase.html" class="btn prim-btn wow fadeInDown" data-wow-offset="120" data-wow-duration=".65s" >Посмотреть всё<i class="fal fa-share-all"></i></a>
-				</div>
-			</div>
-		</div>
 
 
 <!-- 
 	<div class="all-wallet"><p><span class="all-logo">AW</span> <span class="tm">TM</span> <span class="yellow">allwallet</span><span class="copy">©</span></p></div> -->
 
 
-	<footer style="background-color: #fff">
+	<footer style="background-image: url(img/footer.jpeg);">
 		<div class="container">
-			<div class="row f-row">
-				<div class="col-md-12 col-lg-4 img-footer wow fadeIn" data-wow-delay="0.5s">	
-					<img src="img/logo.png" height="50" width="75" alt="" style="opacity: 0.3">
-					<p>SLAPP</p>
-					<p>Digital Agency</p>
-				</div>
-				<div class="col-md-12 col-lg-4 nav-footer wow fadeIn" data-wow-delay="0.5s">	
-					<ul class="navbar-nav">
-						<li class="nav-item dropdown">
-							<a href="index.html" class="nav-link first-element"><i class="fal fa-home"></i>&nbsp &nbspГЛАВНАЯ
-							</a>
-						</li>
-						<li class="nav-item">
-							<a href="indexprice.html" class="nav-link" id="navbardrop">
-								<i class="fal fa-hands-usd"></i>&nbsp &nbsp ЦЕНЫ &nbsp
-							</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a href="indexcase.html" class="nav-link"><i class="fal fa-briefcase"></i>&nbsp &nbspПОРТФОЛИО
-							</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a href="indexblog.html" class="nav-link" id="navbardrop">
-								<i class="fal fa-book"></i>&nbsp &nbspБЛОГ
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-12 col-lg-4 icon-footer">
-					<div class="section-left wow fadeIn" data-wow-delay="0.7s">
-						<p style="margin-bottom: 0"><i style="font-size: 13px; color: #e74c3c" class="fas fa-location-arrow"></i>
-							&nbsp
-							Ukraine, Kyiv
-						</p>
-						<p><i style="font-size: 13px; color: #e74c3c" class="fas fa-phone"></i>
-							&nbsp
-							0970774492
-						</p>
+			<div class="footer-content">	
+				<div class="row">
+					<div class="col">
+						<h1 id="4" class="header1 rev"><span class="wow fadeIn" data-wow-offset="120">ЕСТЬ ИДЕЯ?</span></h1>
+						<h2 class="header2 rev"><span class="wow fadeIn" data-wow-offset="120">Сейчас лучшее</span> <span class="wow fadeIn" data-wow-delay="0.2s" data-wow-offset="120" >время воплотить</span> <span class="wow fadeIn" data-wow-delay="0.4s" data-wow-offset="120"><br>её в жизнь</span></h2>
 					</div>
-					<br>
-					<ul class="right-element wow fadeIn" data-wow-delay="0.85s">
-						<li><a title="Телеграм: 0970774492" href="https://telegram.me/slappagency"><i class="fab fa-telegram"></i></a></li>
-						<li><a title="Viber: 0970774492" href="viber://chat?number=+380970774492"><i class="fab fa-viber"></i></a></li>
-						<li><a title="0970774492" href="tel:+380970774492"><i class="fas fa-phone"></i></a></li>
-					</ul>
+				</div>
+				<div class="row">
+					<div class="col-md-1 f-ref">
+						<a class="f-envelope wow fadeIn" data-wow-offset="120" href="">slapp.agency@gmail.com</a>
+						<br>
+						<a class="f-num wow fadeIn" data-wow-offset="120" href="">097&#8722;077&#8722;44&#8722;92</a>
+						<br>
+						<p class="f-par par rev wow fadeIn" data-wow-offset="120" >Киев, Украина <br>
+						ул. Льва Толстого, 3</p>
+					</div>
+					<div class="col-md-5 offset-md-4 col-lg-4 offset-lg-3 ">
+						<div class="f-buttons">
+							<a class="wow fadeIn" data-wow-offset="120" href="#contact">Работать</a>
+							<a class="wow fadeIn" data-wow-offset="120" data-wow-delay="0.2s" href="">Sitemap</a>
+						</div>
+					</div>
+				</div>
+				<div class="row center">
+					<div class="col-md-12">
+						<div class="f-img">
+							<img class="wow fadeIn" data-wow-offset="120" src="img/logo.png" height="75" width="115" alt="" style="opacity: 0.5" class="wow fadeIn" data-wow-delay="0.2s">
+							<br>
+							<br>
+							<p class="wow fadeIn">©2018 SLAPP.WEB.AGENCY. ALL RIGHTS RESERVED.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="f-soc">
+							<a class="wow fadeIn"  href="">YOUTUBE</a>
+							<a class="wow fadeIn" data-wow-delay="0.1s" href="">TELEGRAM</a>
+							<a class="wow fadeIn"  data-wow-delay="0.2s" href="">VIBER</a>
+							<a class="wow fadeIn"  data-wow-delay="0.3s" href="">INSTAGRAM</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="row low-foot">
-				<div class="col wow fadeIn" data-wow-delay="0.95s">
-					<p>© since 2016</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+		</footer>
 
 
-	<script src="js/scripts.min.js"></script>
+		<script src="js/scripts.min.js"></script>
 
 
-</script>
+	</script>
 
 </body>
 </html>
