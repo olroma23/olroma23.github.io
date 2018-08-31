@@ -9,6 +9,7 @@ $(window).on('load', function() {
 	$('.fourth-element').addClass("fourth-element_anim");
 	$('.fifth-element').addClass("fifth-element_anim");
 	$('.sixth-element').addClass("sixth-element_anim");
+	$('.seventh-element').addClass("seventh-element_anim");
 	$('.navbar-brand').addClass("navbar-brand_anim");
 	$('.right-element-first').addClass("right-element-first_anim");
 	$('.right-element-second').addClass("right-element-second_anim");
@@ -359,7 +360,7 @@ $(function() {
 	// 	};
 	// })(jQuery);
 
-	
+
 
 	// $("#timeline-1").timeline();
 
