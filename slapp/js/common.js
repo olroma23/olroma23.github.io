@@ -33,6 +33,16 @@ $(window).on('load', function() {
 	$('.left1-line').addClass("left1-line_anim");
 	$('.left2-line').addClass("left2-line_anim");
 	$('.left3-line').addClass("left3-line_anim");
+	$('.p-first-cont').addClass("p-first-cont_anim");
+	$('.p-second-cont').addClass("p-second-cont_anim");
+	$('.p-third-cont').addClass("p-third-cont_anim");
+	$('.p-fourth-cont').addClass("p-fourth-cont_anim");
+	$('.first-element-cont').addClass("first-element-cont_anim");
+	$('.second-element-cont').addClass("second-element-cont_anim");
+	$('.third-element-cont').addClass("third-element-cont_anim");
+	$('.fourth-element-cont').addClass("fourth-element-cont_anim");
+	$('.contact-anim').addClass("contact-anim_anim");
+
 });
 
 
