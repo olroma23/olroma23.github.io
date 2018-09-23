@@ -140,9 +140,17 @@ $(function() {
 
 
 
+
+
+	$('.smm-pills-li').click(function(){
+		$('.smm-pills-li').addClass('.smm-pills_active');
+	});
+
+
 	$(window).scroll(function(){
 		$('.navbar-dark').toggleClass('navbar-active', $(this).scrollTop() > 250);
 	});
+
 
 
 	$("#name-form").focus(function(){
