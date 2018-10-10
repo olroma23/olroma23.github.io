@@ -39,7 +39,7 @@ $(function() {
 
 
 	$(window).scroll(function(){
-		$('.navbar-dark').toggleClass('navbar-active', $(this).scrollTop() > 100);
+		$('.navbar-dark').toggleClass('navbar-active', $(this).scrollTop() > 400);
 	});
 
 	$('.clients').owlCarousel({
