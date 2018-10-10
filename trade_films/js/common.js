@@ -1,7 +1,3 @@
-
-
-
-
 $(function() {
 
 	function isVisible(elem) {
@@ -96,9 +92,7 @@ $(function() {
 
 	// Custom JS
 
-	$('nav-link').click(function () {
-		window.location = $(this).attr('href');
-	});
+	
 
 });
 
