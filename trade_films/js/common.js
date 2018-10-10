@@ -96,9 +96,9 @@ $(function() {
 
 	// Custom JS
 
-
-
-
+	$('nav-link').click(function () {
+		window.location = $(this).attr('href');
+	});
 
 });
 
@@ -119,3 +119,10 @@ $(document).mouseup(function (e) {
 
 	}
 });
+
+
+
+
+
+
+
