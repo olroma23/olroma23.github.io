@@ -64,6 +64,43 @@ $(function() {
 		}
 	});
 
+
+
+	$('.partners').owlCarousel({
+		loop: true,
+		smartSpeed: 700,
+		nav: false,
+		autoplay: true,
+		autoplayTimeout: 6000,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			576: {
+				items: 1
+			},
+			768:{
+				items: 2
+			},
+			992: {
+				items: 2
+			}, 
+			1200: {
+				items: 2
+			}
+		}
+	});
+
+
+
+
+
+
+
+
+
+
 	$('.certificates').owlCarousel({
 		loop: true,
 		smartSpeed: 700,
@@ -93,19 +130,13 @@ $(function() {
 	// Custom JS
 
 	$( '.on-top' ).on( 'click', function(e){
+		var href = $(this).attr( 'href' );
+		$( 'html, body' ).animate({
+			scrollTop: $( href ).offset().top
+		}, '300' );
+		e.preventDefault();
 
-  // Define variable of the clicked »a« element (»this«) and get its href value.
-  var href = $(this).attr( 'href' );
-  
-  // Run a scroll animation to the position of the element which has the same id like the href value.
-  $( 'html, body' ).animate({
-  	scrollTop: $( href ).offset().top
-  }, '300' );
-
-  // Prevent the browser from showing the attribute name of the clicked link in the address bar
-  e.preventDefault();
-
-});
+	});
 
 	
 	$(window).scroll(function(){
@@ -117,6 +148,16 @@ $(function() {
 
 });
 
+
+
+$( '.ultravision-link').on( 'click', function(e){
+	var href = $(this).attr( 'href' );
+	$( 'html, body' ).animate({
+		scrollTop: $( href ).offset().top
+	}, '300' );
+	e.preventDefault();
+
+});
 
 
 
