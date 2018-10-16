@@ -93,39 +93,53 @@ $(function() {
 	});
 
 
-
-
-
-
-
-
-
-
-	$('.certificates').owlCarousel({
-		loop: true,
-		smartSpeed: 700,
-		nav: true,
-		autoplay: true,
-		autoplayTimeout: 12000,
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 1
-			},
-			576: {
-				items: 1
-			},
-			768:{
-				items: 1
-			},
-			992: {
-				items: 1
-			}, 
-			1200: {
-				items: 1
-			}
-		}
+$("form.callback").submit(function() { 
+	var th = $(this);
+	$.ajax({
+		type: "POST",
+			url: "mail.php", 
+			data: th.serialize()
+		}).done(function() {
+			$(th).find('.success').addClass('active').css('display', 'flex').hide().fadeIn();
+			setTimeout(function() {
+				$(th).find('.success').removeClass('active').fadeOut();
+				th.trigger("reset");
+			}, 3000);
+		});
+		return false;
 	});
+
+
+
+
+
+
+
+$('.certificates').owlCarousel({
+	loop: true,
+	smartSpeed: 700,
+	nav: true,
+	autoplay: true,
+	autoplayTimeout: 12000,
+	responsiveClass: true,
+	responsive: {
+		0: {
+			items: 1
+		},
+		576: {
+			items: 1
+		},
+		768:{
+			items: 1
+		},
+		992: {
+			items: 1
+		}, 
+		1200: {
+			items: 1
+		}
+	}
+});
 
 	// Custom JS
 
