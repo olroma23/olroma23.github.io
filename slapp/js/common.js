@@ -63,10 +63,10 @@ $(function() {
 	$(".partners").owlCarousel({
 		loop: true,
 		smartSpeed: 700,
-		dots: false,
+		dots: true,
 		nav: true,
 		autoplay: true,
-		autoplayTimeout: 10000,
+		autoplayTimeout: 100000,
 		responsiveClass: true,
 		responsive: {
 			0: {
