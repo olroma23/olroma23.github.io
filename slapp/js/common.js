@@ -52,7 +52,7 @@ $(function() {
 
 	$(".first-element").click(function(){
 		$(".dropdown-toggle").toggleClass("rotate-first-class");
-	});
+	});							
 	$(".second-element").click(function(){
 		$(".dropdown-toggle").toggleClass("rotate-second-class");
 	});

@@ -6,8 +6,8 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>Заказать сайт Киев | Разработка и создание сайтов Украина - SLAPP 2018</title>
-	<meta name="description" content="">
+	<title>Блог Slapp Web Agency 2018 | Полезные статьи из мира IT | SEO, SMM, SEM, дизайн, создание веб-сайтов.</title>
+	<meta name="description" content="Закажите разработку сайта, интернет-маркетинг, дизайн веб-сайта у нас! 3 года опыта на рынке, приятные цены, проверьте наше портфолио на сайте ✅ ✅.">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -17,7 +17,7 @@
 	<link rel="icon" href="img/favicon/favicon.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet">
-	<link rel="stylesheet" href="fonts/web-fonts-with-css/css/fontawesome-all.css">
+	<link rel="stylesheet" href="fonts/web-fonts-with-css/css/fontawesome-all.min.css">
 
 
 	<!-- Template Basic Images End -->
@@ -317,7 +317,7 @@
         	sparkDiv = animationManager.generateSpark(baseAnimationDelay)
         	spark.appendChild(sparkDiv)
         }
-      })
+    })
 				},
 				generateSpark: function(delay) {
 					let sparkDiv = document.createElement('div')
@@ -337,18 +337,18 @@
         let combinedDelay = (animationManager.getRandomInt(0,9)/10) + parseFloat(delay)
         sparkDiv.style.animationDelay = String(combinedDelay) + "s" 
         return sparkDiv   
-      },
-      startIntervalCounter: function() {
-      	setInterval( () => {
-      		materialSVG = document.getElementById('material-group')
-      		materialSVG.classList.toggle('hidden')
-      	}, 45000)
-      }
+    },
+    startIntervalCounter: function() {
+    	setInterval( () => {
+    		materialSVG = document.getElementById('material-group')
+    		materialSVG.classList.toggle('hidden')
+    	}, 45000)
     }
-    document.addEventListener("DOMContentLoaded", evt => {
-    	animationManager.init()
-    })
-  });
+}
+document.addEventListener("DOMContentLoaded", evt => {
+	animationManager.init()
+})
+});
 
 
 </script>
