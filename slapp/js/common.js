@@ -1,6 +1,3 @@
-
-
-
 $(window).on('load', function() {
 	$('.preloader1').addClass("preloader1_anim");
 	$('.first-element').addClass("first-element_anim");
@@ -43,11 +40,6 @@ $(window).on('load', function() {
 	$('.fourth-element-cont').addClass("fourth-element-cont_anim");
 	$('.contact-anim').addClass("contact-anim_anim");
 
-});
-
-
-
-$(function() {
 
 
 	$(".first-element").click(function(){
@@ -145,12 +137,6 @@ $(function() {
 
 
 	new WOW().init();
-
-
-	
-
-
-
 
 
 
@@ -385,40 +371,48 @@ $(function() {
 
 
 
-});
 
 
 
 
-$(document).mouseup(function (e) {
-	var container = $(".sidenav");
-	if (container.has(e.target).length === 0){
-		container.removeClass("sidenav-close");
-		$(".menu-btn").click(function(){
-			$(".sidenav").toggleClass("sidenav-close");
-		});
-		$('.menu-btn').on('click', function(e) {
-			e.preventDefault;
-			$(this).toggleClass('menu-btn_active');
-		});
-		$('.menu-btn').removeClass('menu-btn_active');
-
-		$(".dropdown-item").click(function(){
-			$(".sidenav").toggleClass("sidenav-close");
+	$(document).mouseup(function (e) {
+		var container = $(".sidenav");
+		if (container.has(e.target).length === 0){
+			container.removeClass("sidenav-close");
+			$(".menu-btn").click(function(){
+				$(".sidenav").toggleClass("sidenav-close");
+			});
+			$('.menu-btn').on('click', function(e) {
+				e.preventDefault;
+				$(this).toggleClass('menu-btn_active');
+			});
 			$('.menu-btn').removeClass('menu-btn_active');
-			$(".dropdown-toggle").removeClass("rotate-first-class");
-			$(".dropdown-toggle").removeClass("rotate-second-class");
-		});
-	}
+
+			$(".dropdown-item").click(function(){
+				$(".sidenav").toggleClass("sidenav-close");
+				$('.menu-btn').removeClass('menu-btn_active');
+				$(".dropdown-toggle").removeClass("rotate-first-class");
+				$(".dropdown-toggle").removeClass("rotate-second-class");
+			});
+		}
+	});
+
+	$(".dropdown-item").click(function(){
+		$(".dropdown-toggle").toggleClass("rotate-first-class");
+	});
+
+	$(".dropdown-item").click(function(){
+		$(".dropdown-toggle").toggleClass("rotate-second-class");
+	});
+
+
+
+
 });
 
-$(".dropdown-item").click(function(){
-	$(".dropdown-toggle").toggleClass("rotate-first-class");
-});
 
-$(".dropdown-item").click(function(){
-	$(".dropdown-toggle").toggleClass("rotate-second-class");
-});
+
+
 
 
 function isVisible(elem) {
