@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<title>Reisen</title>
+	<title>Gute Stimmung in Kiew</title>
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="css/main.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	
 
 
@@ -36,9 +37,31 @@
 
 	<div class="fullscreen-bg" id="ontop">
 		<video loop muted autoplay class="fullscreen-bg__video">
-			<source src="img/bg-vid1.mp4" type="video/mp4">
+			<source src="img/bg-vid2.mp4" type="video/mp4">
 			</video>
 		</div>
+
+		
+		<ul id="dropdown1" class="dropdown-content">
+			<li><a class="scrollto" href="#1">Raus aus dem Alltag – Stadtrundgang durch das alte und moderne Kiew</a></li>
+			<li class="divider "></li>
+			<li><a href="#2" class="scrollto">Das Lawra Höhlenkloster  </a></li>
+			<li class="divider"></li>
+			<li><a href="#3" class="scrollto">Der Weg zum Gotteshaus </a></li>
+			<li class="divider"></li>
+			<li><a href="#4" class="scrollto">Andreaskirche und Andreasabstieg</a></li>
+			<li class="divider"></li>
+			<li><a href="#5" class="scrollto">Durch die Hauptstraße der Ukraine und Lypky</a></li>
+			<li class="divider"></li>
+			<li><a href="#6" class="scrollto">Freilichtmuseum </a></li>
+			<li class="divider"></li>
+			<li><a href="#7" class="scrollto">Straßenkunst </a></li>
+			<li class="divider"></li>
+			<li><a href="#8" class="scrollto">Die Kirche des heiligen Kyrill</a></li>
+			<li class="divider"></li>
+			<li><a href="#9" class="scrollto">Stadtrundfahrt </a></li>
+
+		</ul>
 
 
 		<nav class="z-depth-1 navbar">
@@ -46,467 +69,633 @@
 				<a href="#" class="brand-logo left">Reisen</a> 
 				<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right">
-					<li><a href="#" class="hvr-overline-from-center  hide-on-med-and-down">Головна</a></li>
-					<li><a href="#" class="hvr-overline-from-center  hide-on-med-and-down">Екскурсії</a></li>
-					<li><a href="#" class="hvr-overline-from-center  hide-on-med-and-down">Заявка</a></li>
-					<li><a href="#" class="service_button btn btn-flat waves-effect waves-green transparent  hide-on-med-and-down">Замовлення</a></li>
-					<li><a href="#" class="language">UA</a></li>
-					<li><a href="#" class="language">DE</a></li>
+					<li><a href="#ontop" class="scrollto hvr-overline-from-center  hide-on-med-and-down">Startseite</a></li>
+					<li><a href="#onbottom" class="scrollto hvr-overline-from-center  hide-on-med-and-down">Galerie</a></li>
+					<li><a href="#1" data-target="dropdown1" class="dropdown-trigger scrollto  hide-on-med-and-down">Stadtführungen<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="#modal2"  class="modal-trigger scrollto hvr-overline-from-center  hide-on-med-and-down b_click ">Über mich</a></li>
+					<li><a data-target="modal1"  class="modal-trigger scrollto hvr-overline-from-center  hide-on-med-and-down b_click ">Kundenbewertungen</a></li>
+					<li class="service_cont"><a href="#onbobottom" class="scrollto service_button btn btn-flat waves-effect waves-green transparent  hide-on-med-and-down">Kontakt</a></li>
+					<li><a href="index_ukr.html" class="language">UA</a></li>
+					<li><a href="index.html" class="language">DE</a></li>
 				</ul>
 				<ul class="sidenav" id="mobile-demo">
-					<li><a href="#" class="sidenav_elem hvr-overline-from-left">Головна</a></li>
-					<li><a href="#" class="sidenav_elem hvr-overline-from-left">Екскурсії</a></li>
-					<li><a href="#" class="sidenav_elem hvr-overline-from-left">Галерея</a></li>
+					<li><a href="#ontop" class="scrollto sidenav_elem hvr-overline-from-left sidenav-close">Startseite</a></li>
+					<li>
+						<ul class="collapsible collapsible-accordion">
+							<li>
+								<a href="#ooo" class="scrollto sidenav_elem hvr-overline-from-left collapsible-header spec_button " style="margin-left: 15px">Stadtführungen<i class="material-icons right">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a class="scrollto sidenav-close" href="#1">Raus aus dem Alltag – Stadtrundgang durch das alte und moderne Kiew</a></li>
+										<li><a class="scrollto sidenav-close" href="#2">Das Lawra Höhlenkloster</a></li>
+										<li><a class="scrollto sidenav-close" href="#3">Der Weg zum Gotteshaus</a></li>
+										<li><a class="scrollto sidenav-close" href="#4">Andreaskirche und Andreasabstieg</a></li>
+										<li><a  class="scrollto sidenav-close" href="#5">Durch die Hauptstraße der Ukraine und Lypky</a></li>
+										<li><a class="scrollto sidenav-close" href="#6">Freilichtmuseum</a></li>
+										<li><a class="scrollto sidenav-close" href="#7">Straßenkunst</a></li>
+										<li><a class="scrollto sidenav-close" href="#8">Die Kirche des heiligen Kyrill</a></li>
+										<li><a class="scrollto sidenav-close" href="#9">Stadtrundfahrt</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#onbottom" class="scrollto sidenav-close sidenav_elem hvr-overline-from-left">Galerie</a></li>
+					<li><a href="#modal2" class="scrollto modal-trigger  sidenav-close sidenav_elem hvr-overline-from-left">Über mich</a></li>
+					<li><a href="#modal1" class="scrollto modal-trigger  sidenav-close sidenav_elem hvr-overline-from-left">Kundenbewertungen</a></li>
+					<li><a href="#onbobottom" class="scrollto sidenav-close sidenav_elem hvr-overline-from-left">Kontakt</a></li>
 				</ul>
 			</div>
 		</nav>
-		
-		<header>
 
 
-			<section class="h_section">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-12"><h4 class="h4">Проведення екскурсій по Києву</h4></div>
-					</div>
-					<div class="divider"></div>
-					<div class="row center">
-						<div class="col">
-							<h5 class="h5"><strong>Діна</strong> Діденко</h5>
-							<div class="img_holder">
-								<img src="img/photo_small.jpg" alt="" class="circle responsive-img" width="80">
-							</div>
-						</div>
-					</div>
-					<div class="row center">
-						<div class="col">
-							<a href="#" ><p class="p"> dina_didenko@yahoo.com</p></a>
-							<a href="#"><p class="p hvr-icon-drop">+(38)-067-754-18-77</p></a>
-							<ul class="icons_new">
-								<li><a href="#"><i class="far sa fa-envelope-open" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="sa fab fa-telegram-plane" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fas sa fa-phone" aria-hidden="true"></i></a></li>
-							</ul>  
-							<a href="#" class="primary_button btn btn-flat waves-effect waves-green transparent ">Зробити Замовлення</a>
-						</div>
-					</div>
+
+		<div id="modal2" class="modal">
+			<div class="modal-content">
+				<h5>Über mich</h5>
+				<p>Ich liebe meine Stadt Kiew, die so vielfältig und lebendig ist. Diese Liebe möchte ich mit Ihnen, meinen
+					Gästen, gerne teilen. Sie können die Stadt von einer ganz besonderen Seite kennenlernen, Eindrücke
+					sammeln und Hintergründe erfahren. <br><br>
+					Neues zu entdecken und meinen Gästen das Außergewöhnliche zu bieten, sind für mich Herausforderung
+					und Berufung zugleich. <br><br>
+
+
+
+					Dozentin für Deutsch als Fremdsprache. <br><br>
+					Mitglied im  <a class="a" target="_blank" href="http://excurs.kyiv.org/">Stadtführervereins</a> Kiews und im ukrainischen Stadtführerverband <a class="a" target="_blank" href="http://uaguides.com/">Ukrainian Tourist Guides
+					Association</a> (Mitgliedsorganisation von  <a class="a" target="_blank" href="http://www.feg-touristguides.com/crete_message.php"> European Federation of Tourist Guide Associations </a>(FEG))</p>
+
 				</div>
-			</section>
-
-			<div class="soc_section">
-				<ul class="icons">
-					<li><a href="#"><i class="sa far fa-envelope-open" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="sa fab fa-telegram-plane" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fas sa fa-phone" aria-hidden="true"></i></a></li>
-				</ul>  
-			</div>
-
-		</header>
-
-		<a href="#ontop" class="scroll"><div class="on_top" title="Наверх"><i class="fas fa-chevron-up"></i></div></a>
-
-
-
-		<!-- section class="s_excur">
-			<div class="container-fluid">
-				<div class="row center">
-					<div class="col">
-						<h5 class="h5">Екскурсії</h5>
-					</div>
-				</div>
-				<div class="row center">
-					<div class="col-md-3 col-sm-6">
-						<img src="img/b-img-1.jpg" alt="12" height="200" width="280" ;
-						background-size: cover;"><div class="overlay"><p></p></div>
-					</div>
-					<div class="col-md-3">
-						<img src="img/b-img-1.jpg" alt="12" height="200" width="280" ;
-						background-size: cover;">
-
-					</div>
-					<div class="col-md-3">
-
-						<img src="img/b-img-1.jpg" alt="12" height="200" width="280" ;
-						background-size: cover;">
-					</div>
-					<div class="col-md-3">
-						<i class="far fa-arrow-alt-circle-right arrow_icon"></i>
-
-					</div>
-				</div>
-				<div class="row center">
-					<div class="col-md-3 col-sm-6">
-						<img src="img/b-img-1.jpg" alt="12" height="200" width="280" ;
-						background-size: cover;"><div class="overlay"><p></p></div>
-					</div>
-					<div class="col-md-3">
-						<img src="img/b-img-1.jpg" alt="12" height="200" width="280" ;
-						background-size: cover;">
-
-					</div>
-					<div class="col-md-3">
-
-						<img src="img/b-img-1.jpg" alt="12" height="200" width="280" ;
-						background-size: cover;">
-
-					</div>
-					<div class="col-md-3">
-						<i class="far fa-arrow-alt-circle-right arrow_icon"></i>
-
-					</div>
+				<div class="modal-footer">
+					<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
 				</div>
 			</div>
-		</section> -->
-
-		<section class="s_first">
-			<div class="owl-carousel first_carous">
-				<div class="first_carous_item">
-					<div class="first_carous_content" style="background-image: url(img/b-img-6-bl.jpg); background-size: cover">
-						<div class="content_composition">
-							<h5 class="h5">Старий та сучасний Київ</h5>
-							<p class="p">Екскурсія</p>
-							<ul>
-								<li><i class="far fa-clock"> <span class="p">Час екскурсії: 5 годин</span></i></li>
-								<li><i class="fas fa-male"> <span class="p">Пройдена відстань: 2 км</span></i></li>
-							</ul>
-							<a href="#modal1" class="modal-trigger service_button btn btn-flat waves-effect waves-green transparent  ">Детальніше</a>
-							<div id="modal1" class="modal">
-								<div class="modal-content">
-									<h4></h4>
-									<p>Warum schützen die Kiewer Maria Oranta der tausendjährigen Sophien- Kathedrale?Wo brachten die alten Slawen Opfergabe ihren Idolen dar? Welche Geheimnisse bergen in sich Kiewer Höfe?
 
 
-
-										Um die Seele Kiews besser zu verstehen, seine Atmosphäre zu spüren und sein Herzschlag zu fühlen, muss man sich den Quellen, der Geschichte und der Antike zuwenden. Die wichtigsten schicksalhaften Ereignisse fanden in der Oberstadt statt, Entscheidungen wurden getroffen und Schicksale gemacht. Hier ist das Altertum mit der Gegenwart untrennbar verbunden und verflochten, hier sind die Ursprünge von vielen Unternehmungen, hier entstanden Projekte und setzten Pläne in die Tat um. Die Stadt steckt voller Geheimnisse, Rätsel, Legenden und verborgener, geheimnisvoller Orte. Kommen Sie auf eine Erlebnis-Führung mit.
-
-
-
-										Programmpunkte: das Goldene Tor, der Hof mit den Raben, Wladimirstraße, die Sophienkathedrale, das Bohdan Chmelnyzkyj Denkmal, die Landschaftsalle, Altkiewer Berg: die alte Linde, die Fundamente der fürstlichen Schlösser und der allerersten Steinkirche, der heidnische Götzentempel und die Panorama der Unterstadt; die Andreaskirche und der legendäre Andreasabstieg, die wiederaufgebaute Michaelkathedrale mit den goldenen Kuppeln, die Wandmalereien, genannt Murals und die Standseilbahn.
-
-
-
-
-									Dauer der Führung: ca. 3-4 Stunden.</p>
-								</div>
-								<div class="modal-footer">
-									<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Закрити</a>
-								</div>
+			<div id="modal1" class="modal">
+				<div class="modal-content">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col">
+								<h4 class="h4">Ich freue mich über jedes Lob und jede Anregung. <br> So kann ich mein Service verbessern.
+								</h4>
+								<div class="divider"></div>
 							</div>
 						</div>
-					</div>
-					<div class="first_carous_photo" style="background-image: url(img/b-img-6.jpg);background-size: cover;">
-						
-					</div>
-				</div>
-				<div class="first_carous_item">
-					<div class="first_carous_photo" style="background-image: url(img/b-img-5.jpg);background-size: cover;">
-					</div>
-					<div class="first_carous_content" style="background-image: url(img/b-img-5-bl.jpg); background-size: cover">
-						<div class="content_composition">
-							<h5 class="h5">Києво-Печерська лавра</h5>
-							<p class="p">Екскурсія</p>
-							<ul>
-								<li><i style="width: 100%;" class="far fa-clock"> <span class="p">Час екскурсії: 5 годин</span></i></li>
-								<li><i style="width: 100%; text-align: center" class="fas fa-male"> <span class="p">Пройдена відстань: 2 км</span></i></li>
-							</ul>
-							<a href="#modal2" class="modal-trigger service_button btn btn-flat waves-effect waves-green transparent  ">Детальніше</a>
-							<div id="modal2" class="modal">
-								<div class="modal-content">
-									<h4></h4>
-									<p>Warum schützen die Kiewer Maria Oranta der tausendjährigen Sophien- Kathedrale?Wo brachten die alten Slawen Opfergabe ihren Idolen dar? Welche Geheimnisse bergen in sich Kiewer Höfe?
 
+						<div class="row row_cont">
+							<div class="col-md-3">
+								<h5>Heidi Liebhard</h5>
+								<img src="img/user_man.png" alt="" class="circle responsive-img" width="80">
 
-
-										Um die Seele Kiews besser zu verstehen, seine Atmosphäre zu spüren und sein Herzschlag zu fühlen, muss man sich den Quellen, der Geschichte und der Antike zuwenden. Die wichtigsten schicksalhaften Ereignisse fanden in der Oberstadt statt, Entscheidungen wurden getroffen und Schicksale gemacht. Hier ist das Altertum mit der Gegenwart untrennbar verbunden und verflochten, hier sind die Ursprünge von vielen Unternehmungen, hier entstanden Projekte und setzten Pläne in die Tat um. Die Stadt steckt voller Geheimnisse, Rätsel, Legenden und verborgener, geheimnisvoller Orte. Kommen Sie auf eine Erlebnis-Führung mit.
-
-
-
-										Programmpunkte: das Goldene Tor, der Hof mit den Raben, Wladimirstraße, die Sophienkathedrale, das Bohdan Chmelnyzkyj Denkmal, die Landschaftsalle, Altkiewer Berg: die alte Linde, die Fundamente der fürstlichen Schlösser und der allerersten Steinkirche, der heidnische Götzentempel und die Panorama der Unterstadt; die Andreaskirche und der legendäre Andreasabstieg, die wiederaufgebaute Michaelkathedrale mit den goldenen Kuppeln, die Wandmalereien, genannt Murals und die Standseilbahn.
-
-
-
-
-									Dauer der Führung: ca. 3-4 Stunden.</p>
-								</div>
-								<div class="modal-footer">
-									<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Закрити</a>
-								</div>
 							</div>
+							<div class="col-md-9">
+								<p class="p">Liebe Dina, <br> vielen Dank nochmal für Deine tolle Reiseleitung während unseres Aufenthalts in Kiew und
+									Umgebung!
+								</p>
 
-						</div>
-					</div>
-				</div>
-				<div class="first_carous_item">
-					<div class="first_carous_content" style="background-image: url(img/b-img-2-bl.jpg); background-size: cover">
-						<div class="content_composition">
-							<h5 class="h5">Андріївський узвіз, Андріївська церква</h5>
-							<p class="p">Екскурсія</p>
-							<ul>
-								<li><i style="width: 100%; text-align: center" class="far fa-clock"> <span class="p">Час екскурсії: 5 годин</span></i></li>
-								<li><i style="width: 100%; text-align: center" class="fas fa-male"> <span class="p">Пройдена відстань: 2 км</span></i></li>
-							</ul>
-							<a href="#modal3" class="modal-trigger service_button btn btn-flat waves-effect waves-green transparent  ">Детальніше</a>
-							<div id="modal3" class="modal">
-								<div class="modal-content">
-									<h4></h4>
-									<p>Warum schützen die Kiewer Maria Oranta der tausendjährigen Sophien- Kathedrale?Wo brachten die alten Slawen Opfergabe ihren Idolen dar? Welche Geheimnisse bergen in sich Kiewer Höfe?
-
-
-
-										Um die Seele Kiews besser zu verstehen, seine Atmosphäre zu spüren und sein Herzschlag zu fühlen, muss man sich den Quellen, der Geschichte und der Antike zuwenden. Die wichtigsten schicksalhaften Ereignisse fanden in der Oberstadt statt, Entscheidungen wurden getroffen und Schicksale gemacht. Hier ist das Altertum mit der Gegenwart untrennbar verbunden und verflochten, hier sind die Ursprünge von vielen Unternehmungen, hier entstanden Projekte und setzten Pläne in die Tat um. Die Stadt steckt voller Geheimnisse, Rätsel, Legenden und verborgener, geheimnisvoller Orte. Kommen Sie auf eine Erlebnis-Führung mit.
-
-
-
-										Programmpunkte: das Goldene Tor, der Hof mit den Raben, Wladimirstraße, die Sophienkathedrale, das Bohdan Chmelnyzkyj Denkmal, die Landschaftsalle, Altkiewer Berg: die alte Linde, die Fundamente der fürstlichen Schlösser und der allerersten Steinkirche, der heidnische Götzentempel und die Panorama der Unterstadt; die Andreaskirche und der legendäre Andreasabstieg, die wiederaufgebaute Michaelkathedrale mit den goldenen Kuppeln, die Wandmalereien, genannt Murals und die Standseilbahn.
-
-
-
-
-									Dauer der Führung: ca. 3-4 Stunden.</p>
-								</div>
-								<div class="modal-footer">
-									<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Закрити</a>
-
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="first_carous_photo" style="background-image: url(img/b-img-2.jpg);background-size: cover;">
-						
-					</div>
-				</div>
-				<div class="first_carous_item">
-					
-					<div class="first_carous_photo" style="background-image: url(img/b-img-3.jpg);background-size: cover;">
-						
-					</div>
-					<div class="first_carous_content" style="background-image: url(img/b-img-3-bl.jpg); background-size: cover">
-						<div class="content_composition">
-							<h5 style="color: #333;"class="h5">Музей під відкритим небом</h5>
-							<p class="p" style="color: #444">Екскурсія</p>
-							<ul>
-								<li><i style="width: 100%;" class="far fa-clock"> <span style="color: #000" class="p">Час екскурсії: 5 годин</span></i></li>
-								<li><i style="width: 100%;" class="fas fa-male"> <span class="p" style="color: #000">Пройдена відстань: 2 км</span></i></li>
-							</ul>
-							<a href="#modal4" class="modal-trigger service_button btn btn-flat waves-effect waves-green transparent  ">Детальніше</a>
-							<div id="modal4" class="modal">
-								<div class="modal-content">
-									<h4></h4>
-									<p>Warum schützen die Kiewer Maria Oranta der tausendjährigen Sophien- Kathedrale?Wo brachten die alten Slawen Opfergabe ihren Idolen dar? Welche Geheimnisse bergen in sich Kiewer Höfe?
-
-
-
-										Um die Seele Kiews besser zu verstehen, seine Atmosphäre zu spüren und sein Herzschlag zu fühlen, muss man sich den Quellen, der Geschichte und der Antike zuwenden. Die wichtigsten schicksalhaften Ereignisse fanden in der Oberstadt statt, Entscheidungen wurden getroffen und Schicksale gemacht. Hier ist das Altertum mit der Gegenwart untrennbar verbunden und verflochten, hier sind die Ursprünge von vielen Unternehmungen, hier entstanden Projekte und setzten Pläne in die Tat um. Die Stadt steckt voller Geheimnisse, Rätsel, Legenden und verborgener, geheimnisvoller Orte. Kommen Sie auf eine Erlebnis-Führung mit.
-
-
-
-										Programmpunkte: das Goldene Tor, der Hof mit den Raben, Wladimirstraße, die Sophienkathedrale, das Bohdan Chmelnyzkyj Denkmal, die Landschaftsalle, Altkiewer Berg: die alte Linde, die Fundamente der fürstlichen Schlösser und der allerersten Steinkirche, der heidnische Götzentempel und die Panorama der Unterstadt; die Andreaskirche und der legendäre Andreasabstieg, die wiederaufgebaute Michaelkathedrale mit den goldenen Kuppeln, die Wandmalereien, genannt Murals und die Standseilbahn.
-
-
-
-
-									Dauer der Führung: ca. 3-4 Stunden.</p>
-								</div>
-								<div class="modal-footer">
-									<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Закрити</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="first_carous_item">
-					<div class="first_carous_content" style="background-image: url(img/b-img-7-bl.jpg); background-size: cover">
-						<div class="content_composition">
-							<h5 class="h5">Головною вулицею України</h5>
-							<p class="p">Екскурсія</p>
-							<ul>
-								<li><i style="width: 100%; text-align: center" class="far fa-clock"> <span class="p">Час екскурсії: 5 годин</span></i></li>
-								<li><i style="width: 100%; text-align: center" class="fas fa-male"> <span class="p">Пройдена відстань: 2 км</span></i></li>
-							</ul>
-							<a href="#modal5" class="modal-trigger service_button btn btn-flat waves-effect waves-green transparent  ">Детальніше</a>
-							<div id="modal5" class="modal">
-								<div class="modal-content">
-									<h4></h4>
-									<p>Warum schützen die Kiewer Maria Oranta der tausendjährigen Sophien- Kathedrale?Wo brachten die alten Slawen Opfergabe ihren Idolen dar? Welche Geheimnisse bergen in sich Kiewer Höfe?
-
-
-
-										Um die Seele Kiews besser zu verstehen, seine Atmosphäre zu spüren und sein Herzschlag zu fühlen, muss man sich den Quellen, der Geschichte und der Antike zuwenden. Die wichtigsten schicksalhaften Ereignisse fanden in der Oberstadt statt, Entscheidungen wurden getroffen und Schicksale gemacht. Hier ist das Altertum mit der Gegenwart untrennbar verbunden und verflochten, hier sind die Ursprünge von vielen Unternehmungen, hier entstanden Projekte und setzten Pläne in die Tat um. Die Stadt steckt voller Geheimnisse, Rätsel, Legenden und verborgener, geheimnisvoller Orte. Kommen Sie auf eine Erlebnis-Führung mit.
-
-
-
-										Programmpunkte: das Goldene Tor, der Hof mit den Raben, Wladimirstraße, die Sophienkathedrale, das Bohdan Chmelnyzkyj Denkmal, die Landschaftsalle, Altkiewer Berg: die alte Linde, die Fundamente der fürstlichen Schlösser und der allerersten Steinkirche, der heidnische Götzentempel und die Panorama der Unterstadt; die Andreaskirche und der legendäre Andreasabstieg, die wiederaufgebaute Michaelkathedrale mit den goldenen Kuppeln, die Wandmalereien, genannt Murals und die Standseilbahn.
-
-
-
-
-									Dauer der Führung: ca. 3-4 Stunden.</p>
-								</div>
-								<div class="modal-footer">
-									<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Закрити</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="first_carous_photo" style="background-image: url(img/b-img-7.jpg);background-size: cover;">
-						
-					</div>
-				</div>
-				<div class="first_carous_item">
-					
-					<div class="first_carous_photo" style="background-image: url(img/b-img-1.jpg);background-size: cover;">
-						
-					</div>
-					<div class="first_carous_content" style="background-image: url(img/b-img-1-bl.jpg); background-size: cover">
-						<div class="content_composition">
-							<h5 class="h5">Дорогою до церкви</h5>
-							<p class="p">Екскурсія</p>
-							<ul>
-								<li><i style="width: 100%; text-align: center" class="far fa-clock"> <span class="p">Час екскурсії: 5 годин</span></i></li>
-								<li><i style="width: 100%; text-align: center" class="fas fa-male"> <span class="p">Пройдена відстань: 2 км</span></i></li>
-							</ul>
-							<a href="#modal6" class="modal-trigger service_button btn btn-flat waves-effect waves-green transparent  ">Детальніше</a>
-							<div id="modal6" class="modal">
-								<div class="modal-content">
-									<h4></h4>
-									<p>Warum schützen die Kiewer Maria Oranta der tausendjährigen Sophien- Kathedrale?Wo brachten die alten Slawen Opfergabe ihren Idolen dar? Welche Geheimnisse bergen in sich Kiewer Höfe?
-
-
-
-										Um die Seele Kiews besser zu verstehen, seine Atmosphäre zu spüren und sein Herzschlag zu fühlen, muss man sich den Quellen, der Geschichte und der Antike zuwenden. Die wichtigsten schicksalhaften Ereignisse fanden in der Oberstadt statt, Entscheidungen wurden getroffen und Schicksale gemacht. Hier ist das Altertum mit der Gegenwart untrennbar verbunden und verflochten, hier sind die Ursprünge von vielen Unternehmungen, hier entstanden Projekte und setzten Pläne in die Tat um. Die Stadt steckt voller Geheimnisse, Rätsel, Legenden und verborgener, geheimnisvoller Orte. Kommen Sie auf eine Erlebnis-Führung mit.
-
-
-
-										Programmpunkte: das Goldene Tor, der Hof mit den Raben, Wladimirstraße, die Sophienkathedrale, das Bohdan Chmelnyzkyj Denkmal, die Landschaftsalle, Altkiewer Berg: die alte Linde, die Fundamente der fürstlichen Schlösser und der allerersten Steinkirche, der heidnische Götzentempel und die Panorama der Unterstadt; die Andreaskirche und der legendäre Andreasabstieg, die wiederaufgebaute Michaelkathedrale mit den goldenen Kuppeln, die Wandmalereien, genannt Murals und die Standseilbahn.
-
-
-
-
-									Dauer der Führung: ca. 3-4 Stunden.</p>
-								</div>
-								<div class="modal-footer">
-									<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Закрити</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-
-
-
-
-
-
-		<section class="s_excurs section_overlay">
-			<div class="container-fluid">
-				<div class="row center">
-					<div class="col">
-						<h5 class="h5">Фотографії з місць проведення екскурсій</h5>
-					</div>
-				</div>
-				<div class="row center">
-					<div class="col-sm-10 offset-sm-1">
-						<div class="owl-carousel excurs">
-							<div class="exc_item">
-								<img src="img/b-img-1.jpg" alt="12" height="200" width="390">
-							</div>
-							<div class="exc_item">
-								<img src="img/b-img-2.jpg" alt="12" height="200" width="390">
-							</div>
-							<div class="exc_item">
-
-								<img src="img/b-img-3.jpg" alt="12" height="200" width="390">
-							</div>
-
-							<div class="exc_item">
-								<img src="img/b-img-5.jpg" alt="12" height="200" width="390">
-							</div>
-							<div class="exc_item">
-								<img src="img/b-img-6.jpg" alt="12" height="200" width="390">
+								<p class="p" style="margin-top: 0 ">29.03.2016</p>
 
 							</div>
 						</div>
+
+						<div class="row row_cont">
+							<div class="col-md-3">
+								<h5>Bogna Brzezinska-Genter</h5>
+								<img src="img/user_man.png" alt="" class="circle responsive-img" width="80">
+
+							</div>
+							<div class="col-md-9">
+								<p class="p">Liebe Dina, <br> vielen Dank für Deine tolle Betreuung in Kiew. Wir haben seit der Reise viel über die Stadt gesprochen, auch meinen Bekannten in Deutschland und in Polen empfehle ich, hinzufahren. Es war für uns wirklich ein tolles Erlebnis.
+								</p>
+
+								<p class="p" style="margin-top: 0 ">05.06.2015</p>
+
+							</div>
+						</div>
+
+						<div class="row row_cont">
+							<div class="col-md-3">
+								<h5>Markus Meckel</h5>
+								<img src="img/user_man.png" alt="" class="circle responsive-img" width="80">
+
+							</div>
+							<div class="col-md-9">
+								<p class="p">Liebe Frau Didenko, <br> Sie
+									haben uns am letzten Donnerstag in einem Schnell-Durchlauf durch Kiew geführt. Die Art, wie Sie das gemacht
+									haben, mit Tiefsinn, historischem Urteil und der großen Fähigkeit zur Prioritätensetzung – das war einfach
+									bewundernswert. Ich möchte mich ganz herzlich dafür bedanken. Ich hoffe, wir können das mit mehr Zeit einmal
+									fortsetzen!!
+								</p>
+
+								<p class="p" style="margin-top: 0 ">01.06.2015</p>
+
+							</div>
+						</div>
+
+						<div class="row row_cont">
+							<div class="col-md-3">
+								<h5>Adolf Düvelsdorf</h5>
+								<img src="img/user_man.png"" alt="" class="circle responsive-img" width="80">
+							</div>
+							<div class="col-md-9">
+								<p class="p">Sehr geehrte Frau Didenko, <br>
+									wir möchten uns im Nachherein nochmals für eine wunderbare Stadtbesichtigung im September
+									bedanken. Hatten wir bisher schon sehr viel über Kiew und die Schönheiten dieser Stadt gehört, so war
+									diese Stadtführung etwas Besonderes. Die von Ihnen bei der Betrachtung der Sehenswürdigkeiten
+									gewählten Worte waren so treffend und hätten nicht besser sein können. <br>
+									Sollten wir wieder einmal die Hauptstadt der Ukraine besuchen und Zeit für eine Besichtigung haben,
+								werden wir gern auf Ihr Angebot einer weiteren Führung zurückkommen.</p>
+								<p class="p" style="margin-top: 0 ">25.09.2014</p>
+							</div>
+						</div>
+						<div class="row row_cont">
+							<div class="col-md-3">
+								<h5>Michael Ziervogl</h5>
+								<img src="img/user_man.png" alt="" class="circle responsive-img" width="80">
+
+							</div>
+							<div class="col-md-9">
+								<p class="p">Ich muss zu meiner Schande gestehen, dass ich über die Ukraine und Kiev viel zu wenig informiert war. Dir ist es aber gelungen dieses mein Defizit, zumindest zu mindern. <br>
+									Du bist eine ungemein interessante, gebildete und charmante Führerin, welcher es gelingt einen Gast in den Bann der Ausführungen zu ziehen.
+								</p>
+
+								<p class="p" style="margin-top: 0 ">18.02.2013</p>
+
+							</div>
+
+						</div>
+						<div class="row row_cont">
+							<div class="col-md-3">
+								<h5>Inge und Ralf - Peter Piethold</h5>
+								<img src="img/user_man.png" alt="" class="circle responsive-img" width="80">
+
+							</div>
+							<div class="col-md-9">
+								<p class="p">Sehr geehrte Frau Didenko, <br>
+									meine Frau und ich möchten uns nochmals für die von Ihnen so trefflich in Worte gehüllte Stadtführung
+									bedanken. War es für uns nach 17 Jahren wieder eine Besichtigung Ihrer wunderschönen Hauptstadt, so
+									werden wir diese besondere Führung nicht vergessen. Sie haben uns so viele Informationen über die Stadt
+									Kiew mit den vielen Sehenswürdigkeiten in unserer Landessprache zukommen lassen, dass wir heute
+									sagen können, wir haben durch Ihre Hilfe etwas dazugelernt. <br> 
+									Sollten wir wieder einmal in Kiew, werden wir uns mit Sicherheit an Sie mit der Bitte um Begleitung
+								wenden.</p>
+								<p class="p" style="margin-top: 0 ">05.10.2012</p>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
 					</div>
 				</div>
 			</div>
 
-		</section>
 
 
-		<section class="s_call" style="background-image: url(img/call-photo1.jpg)">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6 offset-md-6 col-sm-12">
-						<p class="p">
-							<form class="callback">
-								<div class="success"><span>Дякую за заявку!</span></div>
-								<!-- Hidden Required Fields -->
-								<input type="hidden" name="project_name" value="reisen.com.ua">
-								<input type="hidden" name="admin_email" value="roliynyk68@gmail.com">
-								<input type="hidden" name="form_subject" value="Заявка з сайту Райзен.ком.юа">
-								<!-- END Hidden Required Fields -->
-								<input type="hidden" name="Сторінка" value="">
-								<div class="callback_logo">
-									<a href="#" class="brand-logo_new">Reisen</a> 
+
+			<header>
+
+
+				<section class="h_section">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12"><h4 class="h4">Stadtführerin in Kiew</h4></div>
+						</div>
+						<div class="divider"></div>
+						<div class="row center">
+							<div class="col">
+								<h5 class="h5"><strong>Dina</strong> Didenko</h5>
+								<div class="img_holder">
+									<img src="img/photo_small.jpg" alt="" class="circle responsive-img ">
 								</div>
-								<div class="form_head"><h6 class="h4">Залишити заявку</h4></div>
-									<input type="text" name="Ім'я" placeholder="Ваше Ім'я" required>
-									<input type="text" name="Ім'я" placeholder="Ваше номер телефону" required>
-									<select name="Послуга">
-										<option>Lorem ipsum.	</option>
-										<option>Lorem ipsum.	</option>
-										<option>Lorem ipsum.	</option>
-										<option>Lorem ipsum.	</option>
-										<option>Lorem ipsum.	</option>
-									</select>
-									<button class="btn waves-effect waves light body_button">Відправити</button>
-								</form>
-							</p>
+							</div>
+						</div>
+						<div class="row center">
+							<div class="col">
+								<ul class="icons_new">
+									<li><a href="mailto:dina_didenko@yahoo.com "  title="Почта" ><i class="sa far fa-envelope-open" ></i></a></li>
+									<li><a href="tg://resolve?domain=DinaDidenko"  title="Telegram" target="_blank"><i class="sa fab fa-telegram-plane" ></i></a></li>
+									<li><a href="https://www.facebook.com/dina.didenko"  title="Facebook" target="_blank"><i class="fab sa fa-facebook-f"></i></a></li>
+									<li><a href="viber://add?number=380677541877"  title="Viber" target="_blank"><i class="fab sa fa-viber"></i></a></li>
+									<li><a href="whatsapp://send?phone=+380677541877"  title="WhatsApp" target="_blank"><i class="fab  sa fa-whatsapp"></i></a></li>
+									<li><a href="tel:+380677541877" title="Tel.Number" target="_blank"><i class="fas fa-phone sa"></i></a></li>
+								</ul>  
+
+								<a href="#onbobottom" class="scrollto primary_button btn btn-flat waves-effect waves-green transparent ">GEH, SIEH UND GENIEßE</a>
+							</div>
 						</div>
 					</div>
+				</section>
+
+				<div class="soc_section">
+					<ul class="icons">
+						<li><a href="tg://resolve?domain=DinaDidenko"  title="Telegram" target="_blank"><i class="sa fab fa-telegram-plane" ></i></a></li>
+						<li><a href="https://www.facebook.com/dina.didenko"  title="Facebook" target="_blank"><i class="fab sa fa-facebook-f"></i></a></li>
+						<li><a href="viber://chat?number=+380677541877"  title="Viber" target="_blank"><i class="fab sa fa-viber"></i></a></li>
+						<li><a href="https://api.whatsapp.com/send?phone=380677541877"  title="WhatsApp" target="_blank"><i class="fab  sa fa-whatsapp""></i></a></li>
+					</ul>  
+
 				</div>
-			</section>
+
+			</header>
+
+			<a href="#ontop" class="scroll"><div class="on_top" title="Наверх"><i class="fas fa-chevron-up"></i></div></a>
 
 
-			<footer style="background-image: url(img/footer-photo.jpeg)">
+
+
+
+			<section class="s_excurs" style="background-image: url(img/footer-photo.jpeg); background-size: cover; background-attachment: fixed;">
 				<div class="container-fluid">
 					<div class="row center">
-						<div class="col-md-4">
-							<p class="brand-logo_new" style="top: 0; margin: 0">Reisen</p>
-							<p class="p">Екскурсії по Киеву</p>
-							<p class="p">Діна Діденко</p>
-						</div>
-						<div class="col-md-4  footer-4">
-							<a href="#!"><i class="fas fa-leaf">  <span class="p">  Послуги</span></i></a>
-							<a href="#!"><i class="fas fa-leaf">  <span class="p">  Посилання </span></i></a>
-							<a href="#!"><i class="fas fa-leaf">  <span class="p">  Контакти</span></i></a>
-
-						</div>
-						<div class="col-md-4 col-sm-12">
-							<i class="fas fa-location-arrow displaynone"><span class="p"> м.Киів</span></i>
-							<i class="fas sa fa-phone f-margin displaynone" > <span class="p"> +(38)-067-754-18-77</span></i>
-							<ul class="icons" style="display: flex; margin: 0; justify-content: center;">
-								<li><a href="#"><i class="sa far fa-envelope-open" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="sa fab fa-telegram-plane" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fas sa fa-phone" aria-hidden="true"></i></a></li>
-							</ul>  
+						<div class="col">
+							<h5 class="h5 wow fadeInDown" id="onbottom">Gute Stimmung in Kiew</h5>
 						</div>
 					</div>
-					<div class="divider"></div>
 					<div class="row center">
-						<div class="col">
-							<h1>Київ - Місто, у яке хочеться повернутися</h1>
+						<div class="col-sm-10 offset-sm-1">
+							<div class="owl-carousel excurs">
+								<div class="exc_item">
+									<img src="img/b-img-1.jpg" alt="12"  height="222" width="465">
+								</div>
+								<div class="exc_item">
+									<img src="img/b-img-2.jpg" alt="12"  height="222" width="465">
+								</div>
+
+								<div class="exc_item">
+									<img src="img/b-img-4.jpg" alt="12"  height="222" width="465">
+								</div>
+								<div class="exc_item">
+									<img src="img/b-img-5.jpg" alt="12"  height="222" width="465">
+								</div>
+								<div class="exc_item">
+									<img src="img/b-img-6.jpg" alt="12"  height="222" width="465">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</footer>
 
-			<script src="js/scripts.min.js"></script>
-			<script src="js/common.js"></script>
+			</section>
+			<br>
+			<br>
+			<section class="excur_content">
+				<div class="container-fluid">
+					<div class="divider"></div>
+					<div class="row first_row center">
 
-		</body>
-		</html>
+						<div class="col">
+							<h5 class="h5 wow fadeIn" id="1">
+								Raus aus dem Alltag – Stadtrundgang durch das alte und moderne Kiew 
+							</h5>
+						</div>
+					</div>
+
+					<div class="row second_row">
+						<div class="col-lg-4 col-md-12">
+							<img src="img/ex-1.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+						</div>
+						<div class="col-lg-7 offset-lg-1 col-md-12">
+							<p class="p">Warum schützen die Kiewer Maria Oranta der tausendjährigen Sophien-Kathedrale? Wo brachten die alten Slawen Opfergabe ihren Idolen dar? Welche Geheimnisse bergen in sich Kiewer Höfe?
+
+
+
+								Um die Seele Kiews besser zu verstehen, seine Atmosphäre zu spüren und sein Herzschlag zu fühlen, muss man sich den Quellen, der Geschichte und der Antike zuwenden. Die wichtigsten schicksalhaften Ereignisse fanden in der Oberstadt statt, Entscheidungen wurden getroffen und Schicksale gemacht. Hier ist das Altertum mit der Gegenwart untrennbar verbunden und verflochten, hier sind die Ursprünge von vielen Unternehmungen, hier entstanden Projekte und setzten Pläne in die Tat um. Die Stadt steckt voller Geheimnisse, Rätsel, Legenden und verborgener, geheimnisvoller Orte. Kommen Sie auf eine Erlebnis-Führung mit.
+
+								<br>
+
+								<strong>Programmpunkte:</strong> das Goldene Tor, der Hof mit den Raben, Wladimirstraße, die Sophienkathedrale, das Bohdan Chmelnyzkyj Denkmal, die Landschaftsalle, Altkiewer Berg: die alte Linde, die Fundamente der fürstlichen Schlösser und der allerersten Steinkirche, der heidnische Götzentempel und die Panorama der Unterstadt; die Andreaskirche und der legendäre Andreasabstieg, die wiederaufgebaute Michaelkathedrale mit den goldenen Kuppeln, die Wandmalereien, genannt Murals und die Standseilbahn.
+
+								<br>
+
+
+								<strong>Dauer der Führung: ca. 3-4 Stunden.</strong></p>
+							</div>
+						</div>
+						<div class="divider"></div>
+						<div class="row first_row center">
+
+							<div class="col">
+								<h5 class="h5 wow fadeIn" id="2">
+									Das Lawra Höhlenkloster  
+
+								</h5>
+							</div>
+						</div>
+
+						<div class="row second_row">
+							<div class="col-lg-4 col-md-12">
+								<img src="img/ex-2.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+							</div>
+							<div class="col-lg-7 offset-lg-1 col-md-12">
+								<p class="p">Entdecken Sie eine der wichtigsten Sehenswürdigkeiten der Stadt, die UNESCO-Weltkulturerbe ist. Sie umfasst neben dem Höhlenkloster zahlreiche Kirchen, Museen sowie einen unterirdischen Katakombenkomplex, der weltweit seinesgleichen sucht.
+
+
+
+									„Zunge hilft, Kiew zu finden“ - das ist ukrainisches Äquivalent des Sprichwortes „Mit Fragen kommt man durch die Welt“. Dieses Sprichwort entstand in uralten Zeiten, wenn tausende von Pilgern aus verschiedenen Ecken des Landes gingen, um den Heiligtümern des Höhlenklosters anzubeten. Kiew war und ist immer als das zweite Jerusalem bekannt und stark besucht.
+
+									<br>
+
+
+									<strong>Dauer der Führung: ca. 2 Stunden.</strong></p>
+								</div>
+							</div>
+							<div class="divider"></div>
+
+							<div class="row first_row center">
+
+								<div class="col">
+									<h5 class="h5 wow fadeIn" id="3">
+										Der Weg zum Gotteshaus 
+
+
+									</h5>
+								</div>
+							</div>
+							<div class="row second_row">
+								<div class="col-lg-4 col-md-12">
+									<img src="img/ex-3.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+								</div>
+								<div class="col-lg-7 offset-lg-1 col-md-12">
+									<p class="p">Ich empfehle Ihnen einen Spaziergang durch eine der schönsten Straßen unserer Stadt, durch die Wladimirstraße. Wie ein unsichtbarer Faden verbindet sie die Geschichte Altkiews mit dem modernen Leben der Stadt. Keine andere Straße in Kiew lässt sich von der Vielzahl der Geschichts-, Kultur- und Baudenkmäler mit dieser Straße vergleichen. Im Schatten der Kastanienbäume kommen die Fassaden der berühmten Häuser besonders lebendig und dynamisch vor.
+
+
+
+										Wir besuchen auch die Wladimirkathedrale, deren Bau über 40 Jahre lang dauerte. Die Erwartung der Kiewer wurde belohnt. Man kann hier die Malereien der namhaften Maler wie W. Wasnezow, M. Nesterow, W. Kotarbinskij und M.Wrubel bewundern.
+										<br>
+
+										<strong>Dauer der Führung: ca. 2 Stunden.</strong></p>
+									</div>
+								</div>
+								<div class="divider"></div>
+								<div class="row first_row center">
+
+									<div class="col">
+										<h5 class="h5 wow fadeIn" id="4">
+											Andreaskirche und Andreasabstieg 
+
+										</h5>
+									</div>
+								</div>
+
+								<div class="row second_row">
+									<div class="col-lg-4 col-md-12">
+										<img src="img/ex-4.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+									</div>
+									<div class="col-lg-7 offset-lg-1 col-md-12">
+										<p class="p">Möchten Sie durch die älteste Straße im ganzen Osteuropa spazieren gehen und zahlreiche Geheimnisse ihrer Gebäude erkennen? Dann treffen wir uns am Platz vor der Andreaskirche!
+
+
+
+											Der Spaziergang durch diese Straße führt uns ins graue Altertum, erzählt uns die Geschichten, die sich hier zu verschiedenen Zeiten abspielten. Die richtige Verzierung der Straße ist die Andreaskirche, eine echte Perle des Barockstils und eine Art Visitenkarte unserer Stadt.
+
+
+
+											Im Laufe der letzten Jahrzehnte wurde der Andreasabstieg zu einer Kulturstraße für Kiewer und Gäste der Hauptstadt. Ohne diese Straße besucht zu haben, würde man die Seele unserer Stadt nicht fühlen. Um Kiew besser verstehen zu können, empfehle ich Ihnen sich Andreasabstieg zu merken.
+
+											<br>
+
+
+											<strong>Dauer der Führung: ca. 2 Stunden.</strong></p>
+										</div>
+									</div>
+									<div class="divider"></div>
+									<div class="row first_row center">
+
+										<div class="col">
+											<h5 class="h5 wow fadeIn" id="5"		>
+												Durch die Hauptstraße der Ukraine und Lypky 
+
+
+											</h5>
+										</div>
+									</div>
+									<div class="row second_row">
+										<div class="col-lg-4 col-md-12">
+											<img src="img/ex-5.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+										</div>
+										<div class="col-lg-7 offset-lg-1 col-md-12">
+											<p class="p">Chreschtschatyk ist eine der kürzesten (1,2 Kilometer) und jüngsten Hauptstraßen Europas mit ihrer eigenen Geschichte. Ein Spaziergang durch die Hauptstraße, durch den legendären Hauptplatz der Ukraine - der Platz der Unabhängigkeit, der im Volksmund einfach „Majdan“ genannt wird, bietet Gelegenheit für entspannte Erholung in unserer Stadt.
+
+
+
+												Der Spaziergang durch Lypky, ein aristokratisches Stadtviertel des 19.- Anfang des 20. Jh. mit vielen Villen der Adligen und der Kaufleute, die heute staatliche Einrichtungen beherbergen, nötigt eine richtige Bewunderung von prachtvoller Prophanarchitektur ab.
+												<br>
+
+
+
+												<strong>Dauer der Führung: ca. 3 Stunden.</strong></p>
+											</div>
+										</div>
+										<div class="divider"></div>
+										<div class="row first_row center">
+
+											<div class="col">
+												<h5 class="h5 wow fadeIn" id="6">
+													Freilichtmuseum
+												</h5>
+											</div>
+										</div>
+
+										<div class="row second_row">
+											<div class="col-lg-4 col-md-12">
+												<img src="img/ex-6.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+											</div>
+											<div class="col-lg-7 offset-lg-1 col-md-12">
+												<p class="p">Möchten Sie ein ukrainisches Dorf des 19. - Anfang des 20. Jahrhunderten besichtigen, dann ist das Freilichtmuseum „Pirogowo“ gerade für Sie.
+
+
+
+													Das Freilichtmuseum für die Volksarchitektur und die Lebensweise der Ukraine bietet den Einblick in das Leben der alten Ukraine mit ihren Sitten und Bräuchen an. Das ist die Ukraine in Miniatur. Alle Exponate sind im Original.
+
+
+
+													Pirogowo ist ein großes lebendiges Märchen, wo sich die ukrainischen Hütten und Dorfshäuser, weite Felder, schattige Landstraßen, Windmühlen, heidnische Steingötzen und alte Holzkirchen miteinander verflechtet sind. Ein echt herrliches Örtchen am malerischen Stadtrand Kiews.
+
+
+
+													Ungewöhnlich für Sie wird hier Bandura klingeln. Mit zahlreichen traditionellen Festen begegnet Ihnen das Museum. Die gemütlichen Gaststätten mit den Spezialitäten der ukrainischen Küche laden Sie zur Einkehr ein. Eine gute und typische Abrundung des Nationalessens ist ein Glas der ukrainischen Gorilka mit roter Paperoni als Gesundheits- und Glückbringer. „Budjmo!“ d.h. „Prost!“<br>
+
+
+													<strong>Dauer der Führung: ca. 3 Stunden.</strong></p>
+												</div>
+											</div>
+											<div class="divider"></div>
+											<div class="row first_row center">
+
+												<div class="col">
+													<h5 class="h5 wow fadeIn" id="7">
+														Straßenkunst
+													</h5>
+												</div>
+											</div>
+											<div class="row second_row">
+												<div class="col-lg-4 col-md-12">
+													<img src="img/ex-7.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+												</div>
+												<div class="col-lg-7 offset-lg-1 col-md-12">
+													<p class="p">Letzte Jahre gilt Kiew als Hauptstadt der Street Art. Hunderte Bilder sind an Häusern und Mauern zu sehen. Neben den großen Wandbildern, die es an vielen Brandschutzwänden gibt und die bereits aus der Ferne gut zu erkennen sind, gibt es eine große Vielfalt an kleinen Kunstschätzen, die oft unentdeckt bleiben.
+														Erkundigen Sie die Straßen von Kiew aus einer ungewöhnlichen Sicht, bewundern Sie die künstlerische Wandmalereien, die von namhaften Künstlern erstellet sind.
+
+														Erleben Sie auf dem Rundgang den Lieblingstreffpunkt der Einheimischen, 	schlendern durch versteckte Hinterhöfe und genießen echte Meisterstücke. 
+														<br>
+														<strong>Dauer der Führung: 2-3 Stunden.</strong></p>
+													</div>
+												</div>
+												<div class="divider"></div>
+												<div class="row first_row center">
+
+													<div class="col">
+														<h5 class="h5 wow fadeIn" id="8">
+															Die Kirche des heiligen Kyrill
+														</h5>
+													</div>
+												</div>
+												<div class="row second_row">
+													<div class="col-lg-4 col-md-12">
+														<img src="img/ex-9.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+													</div>
+													<div class="col-lg-7 offset-lg-1 col-md-12">
+														<p class="p">Neben der Sophienkathedrale ist es das zweite Gotteshaus, das seit den Zeiten der Kiewer Rus in seinen
+
+															ursprünglichen Mauern erhalten ist und dazu altertümliche Malerei aufbewahrt hat. Die Wandmalereien
+															der Kirche sind den 12., 17., und 19. Jahrhunderten datiert. Darunter bewundert man die Meisterwerke
+															des hervorragenden Malers Michail Wrubel – Meister von Jugendstil.
+															<br>
+														</p>
+													</div>
+												</div>
+												<div class="divider"></div>
+												<div class="row first_row center">
+
+													<div class="col">
+														<h5 class="h5 wow fadeIn " id="9">
+															Stadtrundfahrt
+														</h5>
+													</div>
+												</div>
+												<div class="row second_row">
+													<div class="col-lg-4 col-md-12">
+														<img src="img/ex-8.jpg" class="materialboxed responsive-img" alt="12" height="200" >
+													</div>
+													<div class="col-lg-7 offset-lg-1 col-md-12">
+														<p class="p">Das ist eine gute Möglichkeit die Stadt zu besichtegen und ihre wichtigsten Sehenswürdigkeiten kennenzulemen und die weiteren Plätze nach Ihrem Wunsch zu besuchen.
+															<br>
+
+
+
+															<strong>Dauer der Führung: ca. 3 Stunden.</strong></p>
+														</div>
+													</div>
+												</div>
+
+											</section>
+
+
+
+											<br>
+											<br>
+											<br>
+
+
+
+
+											<section class="s_call" style="background-image: url(img/call-photo1.jpg)">
+												<div class="container-fluid">
+													<div class="row">
+														<div class="col-md-6 offset-md-6 col-sm-12">
+															<p class="p">
+																<form class="callback">
+																	<div class="success"><span >Danke!</span></div>
+																	<!-- Hidden Required Fields -->
+																	<input type="hidden" name="project_name" value="reisen.kiev.ua">
+																	<input type="hidden" name="admin_email" value="dina_didenko@yahoo.com">
+																	<input type="hidden" name="form_subject" value="Заявка з сайту Reisen">
+																	<!-- END Hidden Required Fields -->
+																	<input type="hidden" name="Сторінка" value="">
+																<!-- <div class="callback_logo">
+																	<a href="#" class="brand-logo_new">Reisen</a> 
+																</div> -->
+																<div class="form_head"><h6 class="h4">Kontakt</h6></div>
+																<input type="text" id="onbobottom" name="Name" placeholder="Ihr Name" required>
+																<input type="text" name="Number" placeholder="Ihre Telefonnummer">
+																<input type="text" name="E-Mail" placeholder="Ihre E-Mail-Adresse">
+
+																<select name="Service">
+																	<option>Betreff: </option>
+																	<option>Raus aus dem Alltag – Stadtrundgang durch das alte und moderne Kiew</option>
+																	<option>Das Lawra Höhlenkloster</option>
+																	<option>Der Weg zum Gotteshaus</option>
+																	<option>Andreaskirche und Andreasabstieg </option>
+																	<option>Durch die Hauptstraße der Ukraine und Lypky</option>
+																	<option>Freilichtmuseum</option>
+																	<option>Straßenkunst</option>
+																	<option>Stadtrundfahrt</option>
+																	<option>Andere Varianten</option>
+																</select>
+																
+																<textarea placeholder="Ihre Nachricht" rows="8"  type="text" name="Додатково"></textarea>
+																<button class="btn waves-effect waves light body_button">Senden</button>
+															</form>
+														</p>
+													</div>
+												</div>
+
+											</div>
+										</section>
+
+
+										<footer style="background-image: url(img/footer-photo.jpeg)">
+											<div class="container-fluid">
+												<div class="row center">
+													<div class="col-md-4">
+														<p class="brand-logo_new" style="top: 0; margin: 0">Reisen</p>
+														<a href="http://uaguides.com" target="_blank" style="text-decoration: underline;
+														width: 100%" class="p">http://uaguides.com</a><br>
+														<a href="http://excurs.kyiv.org" style="text-decoration: underline;
+														width: 100%" target="_blank" class="p">http://excurs.kyiv.org</a>
+														<p class="p">Stadtführerin in Kiew</p>
+														<p class="p">Dina Didenko</p>
+													</div>
+													<div class="col-md-4  footer-4">
+														<a class="scrollto" href="#ontop"><i class="fas fa-leaf">  <span class="p"> Startseite</span></i></a>
+														<a class="scrollto" href="#onmiddle"><i class="fas fa-leaf">  <span class="p">  Stadtführungen </span></i></a>
+														<a class="scrollto" href="#onbottom"><i class="fas fa-leaf">  <span class="p">  Galerie</span></i></a>
+														<a href="#modal2" class="modal-trigger" ><i class="fas fa-leaf">  <span class="p">  Über mich</span></i></a>
+
+														<a class="scrollto" href="#onbobottom"><i class="fas fa-leaf">  <span class="p"> Kontakt </span></i></a>
+
+													</div>
+													<div class="col-md-4 col-sm-12">
+														<i class="fas fa-location-arrow displaynone"><span class="p">Kiew</span></i>
+														<a href="tel:+380677541877" class="a" ><i class="fas sa fa-phone f-margin displaynone" > <span class="p"> +(38)-067-754-18-77</span></i></a>
+														<a  class="a" href="mailto: dina_didenko@yahoo.com"> <i class="sa far fa-envelpe-open displaynone" > <span  class="p">dina_didenko@yahoo.com</span></i></a>
+														<ul class="icons" style="display: flex; margin: 0; justify-content: center;">
+															<li><a href="tg://resolve?domain=DinaDidenko"  title="Telegram" target="_blank"><i class="sa fab fa-telegram-plane" ></i></a></li>
+															<li><a href="https://www.facebook.com/dina.didenko"  title="Facebook" target="_blank"><i class="fab sa fa-facebook-f"></i></a></li>
+															<li><a href="viber://chat?number=+380677541877"  title="Viber" target="_blank"><i class="fab sa fa-viber"></i></a></li>
+															<li><a href="https://api.whatsapp.com/send?phone=380677541877"  title="WhatsApp" target="_blank"><i class="fab  sa fa-whatsapp""></i></a></li>
+														</ul>  
+													</div>
+												</div>
+												<div class="divider"></div>
+												<div class="row center">
+													<div class="col">
+														<h1>Kiew ist die Stadt, wohin man wieder und wieder zurückkehren will.</h1>
+													</div>
+												</div>
+											</div>
+
+										</footer>
+
+										<script src="js/scripts.min.js"></script>
+										<script src="js/common.js"></script>
+										<script>
+
+										</script>
+
+
+									</body>
+
+									</html>
+
