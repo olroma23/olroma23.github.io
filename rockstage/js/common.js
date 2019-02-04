@@ -6,7 +6,6 @@ $(document).ready(function(){
 
 	var navMain = $("#navbarMenu");
 	navMain.on("click", ".nav-link", null, function () {
-		$("nav").toggleClass("sidenav-color");
 		navMain.collapse('hide');
 	});
 
