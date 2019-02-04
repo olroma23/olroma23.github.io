@@ -4,6 +4,12 @@ $(document).ready(function(){
 	});
 
 
+	var navMain = $("#navbarMenu");
+	navMain.on("click", ".nav-link", null, function () {
+		$("nav").toggleClass("sidenav-color");
+		navMain.collapse('hide');
+	});
+
 	$("form.callback").submit(function() { 
 		var th = $(this);
 		$.ajax({
@@ -148,7 +154,7 @@ $(document).ready(function(){
 
 	});
 
-	
+
 	$(window).scroll(function(){
 		if ($(this).scrollTop()*4 > $(this).height()){
 			$(".on-top").addClass("on-top_active");
