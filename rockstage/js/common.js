@@ -4,10 +4,6 @@ $(document).ready(function(){
 	});
 
 
-	var navMain = $("#navbarMenu");
-	navMain.on("click", ".nav-link", null, function () {
-		navMain.collapse('hide');
-	});
 
 	$("form.callback").submit(function() { 
 		var th = $(this);
