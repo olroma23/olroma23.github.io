@@ -72,4 +72,99 @@ $(document).ready(function(){
 		interval: 6000,
 		pause: "false"
 	});
+
+
+
+
+
+
+
+	$(document).mouseup(function (e) {
+		var container = $(".sidenav");
+		if (container.has(e.target).length === 0){
+			container.removeClass("sidenav-close");
+			$(".menu-btn").click(function(){
+				$(".sidenav").toggleClass("sidenav-close");
+			});
+
+		}
+
+
+
+	});
+
+
+
+	$(".navbar-toggler").click(function(){
+		$("nav").toggleClass("sidenav-color")
+	});
+
+
+
+
+
+
+
+
+
+
+	function isVisible(elem) {
+
+		var coords = elem.getBoundingClientRect();
+
+		var windowHeight = document.documentElement.clientHeight;
+
+		var topVisible = coords.top > -1 && coords.top < windowHeight;
+		var bottomVisible = coords.bottom < windowHeight && coords.bottom > -1;
+
+		return topVisible || bottomVisible;
+	}
+
+	function showVisible() {
+		var imgs = document.getElementsByTagName('img');
+		for (var i = 0; i < imgs.length; i++) {
+
+			var img = imgs[i];
+
+			var realsrc = img.getAttribute('realsrc');
+			if (!realsrc) continue;
+
+			if (isVisible(img)) {
+				img.src = realsrc;
+				img.setAttribute('realsrc', '');
+			}
+		}
+	}
+	window.onscroll = showVisible;
+	showVisible();
+
+
+	$( '.on-top, .nav-link' ).on( 'click', function(e){
+		var href = $(this).attr( 'href' );
+		$( 'html, body' ).animate({
+			scrollTop: $( href ).offset().top
+		}, '300' );
+		e.preventDefault();
+
+	});
+
+	
+	$(window).scroll(function(){
+		if ($(this).scrollTop()*4 > $(this).height()){
+			$(".on-top").addClass("on-top_active");
+		}
+		else $(".on-top").removeClass("on-top_active");
+	})
+
+});
+
+
+
+
+
+
+
+
+$(window).scroll(function(){
+	$('.navbar-dark').toggleClass('navbar-active', $(this).scrollTop() > 250);
 });
