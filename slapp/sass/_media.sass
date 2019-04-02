@@ -1,0 +1,1142 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+
+
+	.nav-pills 
+		padding: 10px 100px!important
+
+
+	.all-buttons
+		.nav-pills 
+			padding-top: 30px!important
+			padding-bottom: 20px
+			border-bottom: 0!important
+			padding: 0 100px!important
+
+
+
+	.s-winner
+		.winner-item
+			border-top: 1px solid rgba(#333, .1)
+			border-bottom: 1px solid rgba(#333, .1)
+			border-left: 1px solid rgba(#333, .1)
+			padding: 12px 10px
+			&:nth-child(n+3)
+				border-bottom: 1px solid rgba(#333, .1)
+			&:nth-child(3n)
+				border-right: 1px solid rgba(#333, .1)
+
+
+
+
+	.s-how
+		padding-left: 10px!important
+		padding-right: 10px!important
+		display: block!important
+		.mycont
+			position: relative
+			top: 50px
+			padding-top: 30px!important
+			&::before 
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				background-color: rgba(#fff, 1)!important
+				height: 1070px!important
+				box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+				width: 100%
+				margin-bottom: 40px!important
+	.s-how-text
+		display: block!important
+		.s-head1
+			&::before 
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				background-color: rgba($accent, 1)!important
+				height: 500px
+				width: 100%
+		span
+			position: relative
+			z-index: 4
+			color: #fff
+			font-weight: 300	
+
+
+
+
+
+	.card-container
+		text-align: center
+		.col-lg-12
+			margin-bottom: 100px
+		.card2
+			transform: translateY(0px)
+		.cards
+			&:hover
+				transform: translateY(0px)
+
+
+// ≥992px
++media-breakpoint-down(md)
+
+
+
+	.example-2
+		padding: 32px!important
+		top: 9%!important
+
+
+
+
+	.sem-training-cont
+		margin-top: 450px
+
+	
+
+
+
+
+
+
+
+
+
+	.nav-pills 
+		padding: 10px 30px!important
+
+
+
+
+
+
+	header
+		.prim-btn
+			top: 0
+
+
+
+
+
+	.s-winner
+		.winner-row
+			padding: 0 0
+
+	footer
+		height: 680px!important
+		.footer-content
+			width: 94%
+			margin-top: 15px!important
+			.f-img
+				position: relative
+				z-index: 3
+				img
+					position: relative
+					z-index: 3
+				p
+					position: relative
+					z-index: 3
+					font-weight: 700
+					font-size: 10px
+					letter-spacing: 1px
+					color: #fff
+			.f-soc
+				position: relative
+				z-index: 3
+				width: 100%!important
+				text-align: center!important
+				bottom: 0!important
+				margin-top: 20px
+				a
+					color: #fff
+					font-size: 13px!important
+					font-weight: 700
+					margin: 0 15px!important
+					margin-bottom: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.s-serv
+		padding: 0px 50px
+		height: auto
+		background-color: #131313
+		.serv-item
+			cursor: help
+			border-bottom: 1px solid rgba(#fff, .2)
+			.par
+				letter-spacing: -1px
+			.serv-buttons
+				text-align: center
+				margin-left: 0px
+				position: relative
+				top: 120px
+				.service-second-button
+					width: 155px
+					height: 44px
+					box-shadow: none
+					border: 1px solid rgba(#fff, 1)
+					color: #fff
+					font-weight: 300
+					transition: .2s 
+					&:hover
+						border: 1px solid rgba(#fff, .6)
+				.service-prim-button
+					width: 155px
+					height: 44px
+					box-shadow: none
+					background-color: rgba(#fff, 1)
+					color: #000
+					font-weight: 300
+					transition: .2s 
+					margin: auto
+					margin-top: 13px
+					&:hover
+						background-color: rgba(#fff, .6)
+			.serv-price
+				text-align: center
+				transition: .3s
+				margin-left: 0px
+				&::after
+					position: absolute
+					content: ''
+					width: 100%
+					height: 100%
+					opacity: 0
+					top: 0
+					left: 0
+					transition: .3s
+					transition: opacity 0.3s ease-out
+					z-index: 2
+					background-image: linear-gradient(to right, #5ee7df 0%, #b490ca 100%)
+				p
+					top: 160px
+					font-weight: 300
+					color: #fff
+					position: relative
+					z-index: 3
+			.serv-content
+				margin-left: 20px
+				color: rgba(#fff, .9)
+				h3
+					margin-top: 50px
+					font-weight: 500
+					text-transform: uppercase
+				.icons-content
+					margin-bottom: 20px
+				.icons-content-2
+					margin-left: 40px
+				.icons-content-3
+					margin-left: 40px
+				.i-serv
+					font-size: 24px
+				.icons-cont
+					display: flex
+				.icon-par
+					font-weight: 300
+					font-size: 11px
+					margin-top: 5px
+					letter-spacing: -1px
+			.rot-num
+				color: #fff
+				position: absolute
+				left: 60px																																																																																																			
+				top: 170px
+				transform: rotate(-90deg)																																																																																							
+				&::after
+					content: ''
+					position: absolute
+					width: 1px														
+					height: 60px
+					background-color: #fff
+					top: -70px
+					right: 7px
+		.serv-dev
+			&:hover
+				.serv-price
+					&::after
+						opacity: 1
+		.serv-des
+			border-bottom: none
+			&:hover
+				.serv-price
+					&::after
+						opacity: 1
+		.serv-mar																																																																																			
+			&:hover
+				.serv-price
+					&::after
+						opacity: 1
+
+	.sem-clients
+		height: 70px
+		.owl-dots
+			left: 0!important
+		.owl-nav
+			width: 85%
+			top: 180px
+			left: 70px
+			display: none
+
+
+
+	.s-functions
+		.owl-item
+			text-align: center
+		img
+			display: none!important
+
+	.functions
+		width: 100%
+		text-align: center
+		ul
+			padding: 0
+
+
+	.owl-dots
+		position: relative
+		bottom: 137px
+		width: 100%
+		text-align: center!important
+		left: 0px
+
+
+	.s-advantages
+		.a2
+			border-right: 0
+		.a3
+			border-right: 1px solid rgba(#fff, .4)
+		.a4
+			border-right: 0
+			border-bottom: 1px solid rgba(#fff, .4)
+
+
+	.s-work
+		.p-work
+			border-bottom: none
+		
+
+	
+	#dot
+		top: 650px!important
+
+	.h-section
+		top: 48%
+		h1
+			font-size: 30px
+		p
+			font-size: 14px
+	.section-right
+		display: none
+	.center-element
+		list-style: none
+		display: inline
+		margin-left: -15px
+		li
+			display: inline
+			margin-right: 20px
+			i
+				padding: 10px
+
+	header
+		background-size: cover
+		background-image: url("../img/header.png")
+		video
+			display: none
+
+
+	.header
+		background-image: url("../img/header-pr.jpg")
+		background-size: cover
+		height: 80vh
+		video
+			display: none
+		.bgvideo1
+			height: 80vh
+			.h-section
+				top: 42vh
+				.prim-btn
+					top: 16px
+
+
+	.header-dev
+		background-image: url("../img/Hello-World.jpg")
+		background-size: cover
+		height: 80vh
+		video
+			display: none
+		.bgvideo1
+			height: 80vh
+			.h-section
+				top: 42vh
+				.prim-btn
+					top: 16px
+
+
+
+
+	.header-case
+		background-image: url("../img/header-c.jpeg")
+		background-size: cover
+		height: 80vh
+		video
+			display: none
+		.bgvideo1
+			height: 80vh
+			.h-section
+				.prim-btn
+					position: relative
+					top: 0
+					margin: 20px 0
+
+
+
+
+
+
+
+
+
+	.all-buttons
+		.nav-pills 
+			padding-top: 30px!important
+			padding-bottom: 20px
+			border-bottom: 0!important
+			padding: 0 30px!important
+
+
+
+
+	.p-head
+		margin-bottom: 30px!important
+
+	.header2
+		text-transform: uppercase
+		font-size: 35px!important
+		font-weight: 700
+		margin: 60px
+		color: #222
+
+
+	.left-line
+		position: absolute
+		content: ''
+		width: 1px
+		height: 100vh
+		top: 0!important
+		left: 20vw
+		background-color: rgba(#fff, .1)
+		z-index: 1
+		display: none
+
+	.left1-line
+		position: absolute
+		content: ''
+		width: 1px
+		height: 100vh
+		top: 0!important
+		left: 0vw
+		background-color: rgba(#fff, .1)
+		z-index: 1
+		display: none
+
+	.left2-line
+		position: absolute
+		content: ''
+		width: 1px
+		height: 100vh
+		top: 0!important
+		left: 80vw
+		background-color: rgba(#fff, .1)
+		z-index: 1
+		display: none
+
+
+
+	.left3-line
+		position: absolute
+		content: ''
+		width: 1px
+		height: 100vh
+		top: 0!important
+		left: 80vw
+		background-color: rgba(#fff, .1)
+		z-index: 1
+		display: none
+
+
+
+// ≥768px
++media-breakpoint-down(sm)
+
+
+
+	.cd-modal-content
+		.callback
+			padding: 0!important
+			margin-top: 0px!important
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.sem-we
+		img
+			margin-bottom: 70px
+			margin-top: -80px!important
+
+
+
+
+
+	.example-cont-2
+		margin-top: 50px
+		height: 60vh
+		.example-2
+			text-align: center
+
+
+
+
+
+
+
+
+	.sem-example
+		background-image: url("../img/jasoren-mob.jpg")!important
+
+
+
+
+
+
+
+
+
+
+
+
+	.nav-pills 
+		padding: 10px 0px!important
+		a
+			padding: 0 10px!important
+
+
+
+
+
+
+
+
+
+
+	.all-buttons
+		.nav-pills 
+			padding-top: 30px!important
+			padding-bottom: 20px
+			border-bottom: 0!important
+			padding: 0 0px!important
+
+
+
+
+
+
+	.section-left
+		display: none
+
+
+
+
+	footer
+		height: 760px!important
+		.footer-content
+			width: 94%
+			.f-buttons
+				width: 54%
+				text-align: left!important
+				padding: 30px 0
+				border-top: none
+				border-bottom: 1px solid rgba(#fff, .2)
+				position: relative
+				z-index: 3
+				a
+					color: #fff
+					position: relative
+					z-index: 3
+					font-weight: 700
+					margin-left: 20px
+					text-transform: uppercase
+					padding: 8px
+					&:nth-child(2)
+						margin-left: 16px
+						&:hover
+							text-decoration: none
+							&::after
+								transition: .5s ease
+								content: ''
+								position: absolute
+								bottom: -28px
+								height: 2px
+								width: 75px
+								left: 7px
+								background-color: #fff
+					&:nth-child(1)
+						margin-right: 16px
+						margin-left: 6px
+						&:hover
+							text-decoration: none
+							&::after
+								transition: .5s ease
+								content: ''
+								position: absolute
+								bottom: -28px
+								height: 2px
+								width: 95px
+								left: 7px
+								background-color: #fff
+			.f-img
+				position: relative
+				z-index: 3
+				margin-top: 40px!important
+				img
+					position: relative
+					z-index: 3
+				p
+					position: relative
+					z-index: 3
+					font-weight: 700
+					font-size: 10px
+					letter-spacing: 1px
+					color: #fff
+			.f-soc
+				position: relative
+				z-index: 3
+				width: 100%!important
+				text-align: center!important
+				bottom: 0!important
+				margin-top: 20px
+				a
+					color: #fff
+					font-size: 11px!important
+					font-weight: 700
+					margin: 0 12px!important
+					margin-bottom: 0
+
+
+
+
+
+
+	.s-how
+		padding-left: 10px!important
+		padding-right: 10px!important
+		display: block!important
+		.mycont
+			position: relative
+			top: 50px
+			padding-top: 30px!important
+			&::before 
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				background-color: rgba(#fff, 1)!important
+				height: 1150px!important
+				box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+				width: 100%
+				margin-bottom: 40px!important
+	.s-how-text
+		display: block!important
+		.s-head1
+			&::before 
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				background-color: rgba($accent, 1)!important
+				height: 500px
+				width: 100%
+		span
+			position: relative
+			z-index: 4
+			color: #fff
+			font-weight: 300	
+
+
+
+	.s-serv
+		padding: 0px 15px!important
+		height: auto
+		background-color: #131313
+		.serv-item
+			text-align: center
+			cursor: help
+			border-bottom: 50px solid rgba(#fff, 1)!important
+			.par
+				letter-spacing: -1px
+				margin-bottom: 0!important
+			.serv-buttons
+				text-align: center
+				margin-left: 0px
+				position: relative
+				top: 0!important
+				margin: 40px 0
+				a
+					width: 160px !important
+			.serv-price
+				text-align: center
+				transition: .3s
+				margin-left: 0px
+				margin-bottom: 10px
+				background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%)	
+				&::after
+					position: absolute
+					content: ''
+					width: 100%
+					height: 100%
+					opacity: 0
+					top: 0
+					left: 0
+					transition: .3s
+					transition: opacity 0.3s ease-out
+					z-index: 2
+				p
+					font-weight: 300
+					color: #fff
+					position: relative
+					z-index: 3
+					top: 5px!important
+			.serv-content
+				margin-left: 0px!important
+				color: rgba(#fff, .9)
+				padding: 0 20px
+				h3
+					margin-top: 130px!important
+					font-weight: 500
+					text-transform: uppercase
+				.i-serv
+					background-color: rgba(#fff, .1)
+					width: 55px
+					height: 55px
+					font-size: 20px!important
+					border-radius: 100%
+					line-height: 55px
+				.icons-cont
+					display: flex
+					justify-content: center
+				.icon-par
+					font-weight: 300
+					font-size: 11px
+					margin-top: 5px
+					letter-spacing: -1px
+			.rot-num
+				color: #fff
+				text-align: center!important
+				position: absolute
+				left: 48%!important	
+				margin-right: -52%!important
+				transform: translateX(-52%)																																																																																																
+				top: 0!important
+				transform: rotate(0deg) translateY(75px)!important																																																																																							
+				&::after
+					content: ''
+					position: absolute
+					width: 1px														
+					height: 60px
+					background-color: #fff
+					top: -70px
+					right: 7px
+		.serv-dev
+			&:hover
+				.serv-price
+					&::after
+						opacity: 1
+		.serv-des
+			border-bottom: 0!important
+			border-bottom: none
+			&:hover
+				.serv-price
+					&::after
+						opacity: 1
+		.serv-mar																																																																																			
+			&:hover
+				.serv-price
+					&::after
+						opacity: 1
+						right: 7px
+	.des-price
+		background-image: linear-gradient(to right, #5ee7df 0%, #b490ca 100%)!important
+
+	.mar-price
+		background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%)!important
+
+
+
+
+
+	.header2
+		text-transform: uppercase
+		font-size: 30px!important
+		font-weight: 700
+		margin: 60px
+		color: #222
+
+
+
+
+	.s-result
+		p
+			letter-spacing: -1px
+			font-size: 13px
+
+
+	.navbar-dark.navbar-active
+		&:after
+			background-color: rgba(#fff, .8)!important
+			box-shadow: none
+
+
+
+
+	.p-head
+		font-size: 22px!important
+	.s-head1
+		font-size: 30px
+	.owl-nav
+		position: absolute
+		top: 150px
+		width: 80%
+		left: 40px
+
+
+	.sidenav
+		display: inline
+
+
+
+	#dot-mark
+		top: 700px!important
+
+
+
+
+// ≥576px
++media-breakpoint-down(xs)
+
+
+
+	#dot-mark
+		top: 500px!important
+
+
+
+
+
+	.example-cont-2
+		margin-top: 50px
+		height: 65vh
+		.example-2
+			padding: 0 10px!important
+			text-align: center
+
+
+
+
+	.smm-adv-text
+		margin-bottom: 30px
+		p
+			font-size: 15px!important
+			font-weight: 400
+
+
+	.smm-adv-text-1
+		margin-top: 40px
+		p
+			font-size: 15px!important
+			font-weight: 400
+
+
+
+
+
+
+
+
+	.first-price
+		.nav-pills 
+			padding: 20px 0px!important
+			padding-bottom: 70px!important
+			margin-top: 10px
+			text-align: center
+			display: block
+			li
+				width: 200px
+
+
+
+	.all-buttons	
+		.nav-pills 
+			padding: 20px 0px!important
+			padding-bottom: 70px!important
+			margin-top: 10px
+			text-align: center
+			display: block
+			li
+				width: 200px
+
+	.smm-pills
+		border-bottom: 1px solid rgba(#000, .1)
+		padding-bottom: 70px 
+		.nav-pills
+			padding: 0!important
+			display: block!important
+			margin-bottom: 50px
+
+
+	footer
+		height: 780px!important
+		.footer-content
+			width: 94%!important
+			.f-buttons
+				width: 54%
+				text-align: left!important
+				padding: 30px 0
+				border-top: none
+				border-bottom: 1px solid rgba(#fff, .2)
+				position: relative
+				z-index: 3
+				a
+					color: #fff
+					position: relative
+					z-index: 3
+					font-weight: 700
+					margin-left: 20px
+					text-transform: uppercase
+					padding: 8px
+					&:nth-child(2)
+						margin-left: 0
+						&:hover
+							text-decoration: none
+							&::after
+								transition: .5s ease
+								content: ''
+								position: absolute
+								bottom: -28px
+								height: 2px
+								width: 75px
+								left: 7px
+								background-color: #fff
+					&:nth-child(1)
+						margin-right: 0
+						margin-left: 0 
+						&:hover
+							text-decoration: none
+							&::after
+								transition: .5s ease
+								content: ''
+								position: absolute
+								bottom: -28px
+								height: 2px
+								width: 95px
+								left: 7px
+								background-color: #fff
+			.f-img
+				position: relative
+				z-index: 3
+				margin-top: 40px!important
+				img
+					position: relative
+					z-index: 3
+				p
+					position: relative
+					z-index: 3
+					font-weight: 700
+					font-size: 10px
+					letter-spacing: 1px
+					color: #fff
+			.f-soc
+				position: relative
+				z-index: 3
+				width: 100%!important
+				text-align: center!important
+				bottom: 0!important
+				margin-top: 20px
+				a
+					color: #fff
+					font-size: 10px!important
+					font-weight: 700
+					margin: 0 8px!important
+					margin-bottom: 0
+
+
+
+
+	.s-how
+		padding-left: 10px!important
+		padding-right: 10px!important
+		display: block!important
+		.mycont
+			position: relative
+			top: 50px
+			padding-top: 30px!important
+			&::before 
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				background-color: rgba(#fff, 1)!important
+				height: 1132px!important
+				box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+				width: 100%
+				margin-bottom: 40px!important
+	.s-how-text
+		display: block!important
+		.s-head1
+			&::before 
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				background-color: rgba($accent, 1)!important
+				height: 500px
+				width: 100%
+		span
+			position: relative
+			z-index: 4
+			color: #fff
+			font-weight: 300	
+
+
+	.blog-h
+		position: absolute
+		color: rgba(#fff, .7)!important
+		font-weight: 500
+		bottom: 0px
+		left: 50%
+		margin-right: -50%
+		transform: translate(-50%, 5px)!important
+		z-index: 10000
+		text-align: center
+		margin: 0
+		font-size: 20px
+
+
+
+	.header2
+		text-transform: uppercase
+		font-size: 30px!important
+		font-weight: 700
+		margin: 50px
+		color: #222
+
+
+
+
+
+	.s-port
+		.content
+			width: 100%
+			height: 500px!important
+			img
+				height: 500px!important
+	.instruments
+		i
+			font-size: 30px!important
+		img
+			height: 30px!important
+
+
+
+
+	.bgvideo1
+		height: 80vh
+		.h-section
+			top: 38vh!important
+
+
+
+	.p-work
+		font-size: 13px
+
+
+
+	.s-winner
+		.winner-row
+			padding: 0 0
+		.winner-item
+			border: none
+			border-top: 1px solid rgba(#333, .1)
+			border-left: 1px solid rgba(#333, .1)
+			&:nth-child(2n)
+				border-right: 1px solid rgba(#333, .1)
+
+
+
+	.sem-training
+		padding: 80px 20px!important
+
+
+
+
+
+	.sem-clients
+		padding: 0 !important
+		p
+			margin-bottom: 20px!important
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
